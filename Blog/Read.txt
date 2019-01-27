@@ -1,5 +1,5 @@
 	    PRIMERA SEMANA   
-  	SE TRABAJARA POR BLOQUES
+       SE TRABAJARA POR BLOQUES BLOG
 ----------------------------------------
 1) Crear los archivos asi: 
 (USAR '_' para nombres largos  evitar usar espacios)
