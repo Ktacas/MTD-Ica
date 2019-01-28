@@ -1,0 +1,15 @@
+	    PRIMERA SEMANA   
+      SE TRABAJARA POR BLOQUES EVENTOS
+-------------------------------------------
+1) Crear los archivos asi: 
+(USAR '_' para nombres largos  evitar usar espacios)
+
+Eventos_COMPARTIR.html 
+Eventos_COMPARTIR.css
+Eventos_COMPARTIR.js
+Eventos_COMPARTIR_dudas-aclaraciones.txt    (comentar si hay dudas o aclaraciones)
+
+2) el index_eventos.html es para colocar los bloques aprobados del html y referidos.
+
+
+
