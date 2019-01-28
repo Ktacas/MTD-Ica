@@ -1,2 +1,2 @@
 1) Esta semana lograr culminar BLOG y CORE 
-que contienen 17 bloques de trabajo + 2 (NAV y FOOTER)
+que contienen 17 bloques de trabajo + 2 (NAVEGADOR y FOOTER)
