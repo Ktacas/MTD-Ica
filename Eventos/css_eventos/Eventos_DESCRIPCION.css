@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div#caja{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 1250px;
+    height: 350px;  
+}
+div#image{   
+    width:100px;
+    height: 40px;
+    float: left;   
+}
+div#content{
+    float: left;
+    width: 365px;
+    height: 100%;
+    margin-left: 480px;
+    margin-top: 20px;
+    float: left;
+}
+div#palabra{
+    width: 600px;
+    height: 300px;
+    margin: -10px auto;
+	color: #181820;
+    font-family: Arial, Helvetica, Sans-serif, "Myriad Pro"; 
+}
+#p1{
+    font-size: 2.8rem;
+    line-height: 60px 
+}
+#p2{
+    font-size: 1.7rem;
+    line-height: 50px
+}
+#p3{
+    font-size: 1.0rem;
+    line-height: 100px;
+}
+#p4{ 
+    font-size: 1.0rem;
+    line-height: 0px;
+}
+.icon-calendar{
+    
+    margin: 18px;
+    font-size: 30px;
+}
+.icon-clock{
+    margin: 18px;
+    font-size: 30px; 
+}
