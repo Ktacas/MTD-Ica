@@ -2,7 +2,7 @@
     margin: -10px auto;
 	color: rgb(8, 8, 8);
     font-family: Arial, Helvetica, Sans-serif, "Myriad Pro";
-    height: 100%;
+    text-align: center;	
 }
 #p1{
 	font-size: 20px;
@@ -11,31 +11,24 @@
 }
 .margen{
    background: #181820;
-   width: 1400px;
+   width: 1700px;
    height: 100px;
-   /*cambio a -10* margin */
    display: table-cell;
    vertical-align: middle;
+   text-align: center;
 }
 .icon-facebook2{
-    
     color: rgb(255, 255, 255);
     margin: 18px;
     font-size: 50px;
-        
-   
 }
 .icon-twitter{
-    
     color: rgb(255, 255, 255);
     margin: 18px;
     font-size: 50px;
-    
 }
 .icon-instagram{
-    
     color: rgb(255, 255, 255);
     margin: 18px;
     font-size: 50px;
-    
 }
