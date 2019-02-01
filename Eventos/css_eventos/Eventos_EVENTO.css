@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+.img{
+    width: 100%;
+    position: relative;
+}
 div#caja{
     margin: auto;
     margin-top: 0px;
@@ -21,7 +25,8 @@ div#content{
     float: left;
     text-align: center;
     max-height: 100%;
-    max-width: 100%; 
+    max-width: 100%;
+    
 }
 div#image{
     width:100%;
@@ -39,12 +44,13 @@ div#image{
         margin: auto;
         margin-top: 0px;
         margin-left: 0px;
-        width: 153%;
-        height: 600px;
+        width: 130%;
+        height: 94%;
         background: #1a171f;
-        border-radius: 0% 0% 80% 20%;  
+        border-radius: 0% 0% 80% 35%;  
         color: #E5E6E8;
-        float: left;   
+        float: left;
+        position: relative;
 }
 div#palabra{
     margin: -10px auto;
@@ -58,22 +64,23 @@ div#palabra{
     -ms-transform: translateY(25%);
     -o-transform: translateY(25%);
     transform: translateY(25%);
+    
 }
 #p1{
     font-size: 2.8rem;
     line-height: 60px;
     margin-top: -50px;
-    margin-left: -210px;
+    margin-left: -130px;
 }
 #p2{
     font-size: 2.0rem;
     margin-top: 10px;
-    margin-left: -210px;
+    margin-left: -130px;
 }
 #p3{
 
     font-size: 1.0rem;
-    margin-left: -210px;
+    margin-left: -130px;
 
 }
 .spotlight {
@@ -101,7 +108,7 @@ div#palabra{
     text-overflow: ellipsis;
     border-radius: 30px;
     font-size: 1.1rem;
-    margin-left: -210px;
+    margin-left: -130px;
     margin-top: 40px; 
 }
 input[type="submit"]:hover,
