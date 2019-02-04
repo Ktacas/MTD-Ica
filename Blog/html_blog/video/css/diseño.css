@@ -1,0 +1,57 @@
+body{
+
+}
+div#video{
+	width: 800px;
+	height: 450px;
+	border:solid 1px black ;
+
+}
+div#extra{
+	width: 200px;
+	height: 20px;
+	border:solid 1px red;
+	position: relative;
+	top: 10px;
+}
+div#iconos{
+	width: 100px;
+	height: 20px;
+	border:solid 1px red;
+	position: relative;
+	top:-12px;
+	left: 690px;
+}
+div#cantidadcorazon{
+	width: 15px;
+	height: 15px;
+	border:solid 1px red;
+	position: relative;
+	top:-18px;
+	left:23px;
+}
+p#numerocorazon{
+	position: relative;
+	top:-12px;
+	left: 2px;
+	font-size:10pt;
+}
+#comentario{
+	position: relative;
+	top:-37px;
+	left:52px;
+}
+div#cantidadcomentarios{
+	width: 15px;
+	height: 15px;
+	border:solid 1px red;
+	position: relative;
+	top:-55px;
+	left:75px;
+}
+p#numerocomentario{
+	position: relative;
+	top:-12px;
+	left: 2px;
+	font-size:10pt;
+}
