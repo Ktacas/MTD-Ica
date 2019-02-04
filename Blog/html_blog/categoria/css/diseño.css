@@ -1,0 +1,67 @@
+body{
+
+}
+div#ovalo{
+	position: relative;
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	top:20px;
+	left:40px;
+	border-radius: 30px;
+
+}
+#letra{
+	position:relative;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	top: 8px;
+
+}
+div#cuadro{
+	width: 400px;
+	height: 130px;
+	background-color: black;
+	background-position: relative;
+
+}
+
+#primero{
+
+	color: white;
+	position: relative;
+	top:25px;
+	left: 50px;
+
+}
+#segundo{
+	color: white;
+	position: relative;
+	top: 25px;
+	left:80px;
+}
+#tercero{
+	color: white;
+	position: relative;
+	top:55px;
+	left:-110px;
+}
+#cuarto{
+	color: white;
+	position: relative;
+	top:55px;
+	left: -56px;
+}
+#quinto{
+	color: white;
+	position: relative;
+	top:90px;
+	left:-233px;
+}
+#sexto{
+	color: white;
+	position: relative;
+	top:90px;
+	left:-165px;
+}
