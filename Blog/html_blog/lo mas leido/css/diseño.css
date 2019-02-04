@@ -1,15 +1,10 @@
-body{
-
-}
 div#general{
 	width:500px;
 	height:600px;
-	border:solid 1px black;
 }
 div#e1{
 	width: 450px;
 	height: 100px;
-	border: solid 1px red;
 	position: relative;
 	top: 10px;
 	left: 20px;
@@ -17,16 +12,14 @@ div#e1{
 div#cuadro1{
 	width: 80px;
 	height:80px;
-	border: solid 1px yellow;
 	position: relative;
 	top:10px;
 	left: 10px;
 	border-radius: 10px;
 }
 div#texto1{
-	width: 250px;
-	height:50px;
-	border: solid 1px blue;
+	width: 340px;
+	height:55px;
 	position: relative;
 	top: -60px;
 	left: 100px;
@@ -35,7 +28,6 @@ div#texto1{
 div#e2{
 	width: 450px;
 	height: 100px;
-	border: solid 1px red;
 	position: relative;
 	top: 40px;
 	left: 20px;
@@ -43,16 +35,14 @@ div#e2{
 div#cuadro2{
 	width: 80px;
 	height:80px;
-	border: solid 1px yellow;
 	position: relative;
 	top:10px;
 	left: 10px;
 	border-radius: 10px;
 }
 div#texto2{
-	width: 250px;
-	height:50px;
-	border: solid 1px blue;
+	width: 340px;
+	height:55px;
 	position: relative;
 	top: -60px;
 	left: 100px;
@@ -60,7 +50,6 @@ div#texto2{
 div#e3{
 	width: 450px;
 	height: 100px;
-	border: solid 1px red;
 	position: relative;
 	top: 70px;
 	left: 20px;
@@ -68,16 +57,14 @@ div#e3{
 div#cuadro3{
 	width: 80px;
 	height:80px;
-	border: solid 1px yellow;
 	position: relative;
 	top:10px;
 	left: 10px;
 	border-radius: 10px;
 }
 div#texto3{
-	width: 250px;
-	height:50px;
-	border: solid 1px blue;
+	width: 340px;
+	height:55px;
 	position: relative;
 	top: -60px;
 	left: 100px;
@@ -86,7 +73,6 @@ div#texto3{
 div#e4{
 	width: 450px;
 	height: 100px;
-	border: solid 1px red;
 	position: relative;
 	top: 100px;
 	left: 20px;
@@ -94,18 +80,39 @@ div#e4{
 div#cuadro4{
 	width: 80px;
 	height:80px;
-	border: solid 1px yellow;
 	position: relative;
 	top:10px;
 	left: 10px;
 	border-radius: 10px;
 }
 div#texto4{
-	width: 250px;
-	height:50px;
-	border: solid 1px blue;
+	width: 340px;
+	height:55px;
 	position: relative;
 	top: -60px;
 	left: 100px;
 
+}
+div#image{
+	width: 100%;
+	height:100%;
+	position: relative;
+	 
+}
+.img{
+	border-radius: 5px;
+}
+#txt{
+	
+	font-size: 20px;
+	height: 100%;
+	width: 100%;
+	height: 300px;
+	margin-top: 4px;
+	margin-right: 50px;
+	position: relative;
+}
+#tx{
+	margin-left: 30px;
+	font-size: 20px;
 }
