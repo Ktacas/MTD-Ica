@@ -1,0 +1,45 @@
+body{
+
+}
+div#contenedor{
+	width:600px;
+	height: 600px;
+	border:solid 1px red;
+}
+div#usuario{
+	border: solid 1px black;
+	width: 600px;
+	height: 50px;
+
+}
+div#imagen{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	left: 5px;
+	top: 3px;
+	border: solid 1px green;
+	border-radius: 100px;
+
+}
+div#nombre{
+	border:solid 1px yellow;
+	width: 250px;
+	height: 39px;
+	position: relative;
+	top: -37px;
+	left: 55px;
+}
+.contenido{
+	border:solid 1px blue;
+	position: relative;
+	top: 0px;
+	width: 600px;
+	height: 546px;
+	
+}
+
+hr{
+	position: relative;
+	top: 250px;
+}
