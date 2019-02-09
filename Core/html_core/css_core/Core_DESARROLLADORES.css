@@ -1,0 +1,68 @@
+.coreD_info_cicular{
+	width: 350px;
+	height: 50px;
+	border-radius: 100px 100px 100px 100px;
+	background: #1E2327;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	position: relative;
+    top: 10px;    
+}
+
+.coreD_info_cicular > h1 {
+	color: #E5E6E8;
+	font-size: 1.8rem;
+}
+
+.coreD_info_fondo{
+    width: 100%;
+    height: auto;
+	background: #181B20;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+#coreM_contenido_imagen{
+    margin: 50px;
+    float: left;
+}
+
+#coreM_contenido_imagen1{
+    text-align: center;
+}
+
+#coreM_img_foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+}
+
+#coreM_text_1{
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#coreD_text_2{
+    margin-bottom: 0;
+}
+
+
+
+ #Enlace1{
+    color: rgb(52, 22, 185);
+    text-decoration: none;
+    transition: 2s;
+    margin-left: 5px;
+ }
