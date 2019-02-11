@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-template-areas: "hero" 
+                         "core"
+                         "events"
+                         "blog"
+                         "contact";
+    grid-gap: 30px;
+    grid-template-rows: 600px 250px 250px 500px 600px;
+}
+.header {
+    background: rgb(119, 0, 255);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+.hero {
+    grid-area: hero;
+    background: rgb(255, 81, 0);
+    padding-top: 70px;
+}
+.core {
+    grid-area: core;
+    background: rgb(255, 145, 0);
+}
+.events {
+    grid-area: events;
+    background: rgb(255, 208, 0);
+}
+.blog {
+    grid-area: blog;
+    background: rgb(0, 153, 255);
+}
+.contact {
+    grid-area: contact;
+    background: rgb(0, 68, 255);
+    position: relative;
+}
+.footer {
+    background: rgb(195, 0, 255);
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
