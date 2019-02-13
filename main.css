@@ -14,7 +14,7 @@ body {
                          "events"
                          "blog"
                          "contact";
-    grid-template-rows: 100vh 420px 250px 500px 600px;
+    grid-template-rows: 100vh 420px 400px 500px 600px;
 }
 
 /* -------------------------------HEADER------------------------------- */
@@ -25,6 +25,7 @@ body {
     position: fixed;
     display: flex;
     justify-content: space-between;
+    z-index: 2;
 }
 /* contenedor */
 .container_header {
@@ -194,6 +195,8 @@ body .content a {
 .descripion_core {
   font-weight: 200;
   grid-area: description_core;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.13em;
 }
 .descripion_core span {
   color: rgb(0, 68, 255);
@@ -205,18 +208,109 @@ body .content a {
   text-decoration: none;
   color: azure;
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 2em;
   grid-area: bottom_core;
+  font-family: 'Dosis', sans-serif;
   justify-self: start;
   margin-left: 120px;
 }
+/* -------------------------------EVENTS------------------------------- */
 .events {
     grid-area: events;
-    background: rgb(255, 208, 0);
+    background: white;
+    padding-top: 50px;
 }
+.container_events {
+  background: #181C20;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: minmax(auto,1fr);
+  justify-content: center;
+}
+.division_events {
+  display: grid;  
+            grid-template-columns: .3fr 2fr 1.6fr;
+            grid-template-rows: 90px .2fr .2fr .2fr auto;
+            grid-gap: 15px 70px;
+            grid-template-areas:  ". tag_events image_events"
+                                  "line_events title_events image_events"
+                                  "line_events description_events image_events"
+                                  ". bottom_events image_events"
+                                  ". . image_events";     
+}
+
+.tag_events   {
+  font-family: 'Dosis', sans-serif;
+  background: #1C2227;
+  border-radius: 50px;
+  padding: 20px 80px;
+  color: azure;
+  font-weight: 600;
+  font-size: 2em;
+  margin: auto 0;
+  position: relative;
+  top: -50%;
+  grid-area: tag_events;
+  width:107px;
+}
+.line_events {
+  grid-area: line_events;
+  border-right: 6px solid rgb(19, 106, 177);
+}
+.title_events {
+  font-weight: 600;
+  font-family: 'Dosis', sans-serif;
+  font-size: 2em;
+  margin: 0;
+  grid-area: title_events;
+  display: flex;
+  align-items: center;
+}
+.description_events {
+  font-weight: 100;
+  grid-area: description_events;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.13em;
+  margin: 0;
+  color: #CBCBCB;
+  width: 490px;
+}
+.image_events {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  grid-area: image_events;
+  overflow: hidden;
+  border-top-left-radius: 496px 770px;
+}
+.image_events img {
+  width: 100%;
+  height:100%;
+  object-fit:cover;
+  
+}
+.bottom_events {
+  border: 2px solid azure;
+  border-radius: 50px;
+  padding: 9px 30px;
+  text-decoration: none;
+  color: azure;
+  font-weight: 300;
+  font-size: 2em;
+  font-family: 'Dosis', sans-serif;
+  grid-area: bottom_events;
+  margin-left: 120px;
+  justify-self: end;
+  margin: auto 0;
+}
+
 .blog {
     grid-area: blog;
     background: rgb(0, 153, 255);
+    position: relative;
+    z-index: 1;
 }
 .contact {
     grid-area: contact;
