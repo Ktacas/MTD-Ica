@@ -538,7 +538,35 @@ body .content a {
 
 /* -------------------------------FOOTER------------------------------- */
 .footer {
-    background: rgb(195, 0, 255);
-    height: 50px;
+    background: rgb(0, 0, 0);
+    height: 70px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
+.logo_footer {
+  margin: 0;
+  margin-left: 55px;
+  display: inherit;
+  align-items: center;
+  }
+/* imagen-logo */
+.logo_footer img {
+    width: auto;
+    height: 50px;
+  }
+.info_footer {
+    display: flex;
+    align-items: center;
+  }
+.info_footer p {
+  margin: 0;
+  margin-right: 55px;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1.2em;
+}
+.info_footer a {
+  text-decoration: none;
+  color: white;
+}
