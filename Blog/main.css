@@ -25,10 +25,6 @@ body {
     justify-content: center;
     align-items: center
     }
-.post {
-    grid-area: post;
-    background: rgb(255, 196, 0);
-   }
 .aside {
     grid-area: aside;
     background: rgb(2, 120, 255);
@@ -113,3 +109,83 @@ ul li:last-child {
   margin: auto;
 }
 
+/* -------------------------------POST------------------------------- */
+.post {
+  grid-area: post;
+  background: rgb(255, 196, 0);
+  padding: 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+ }
+ .post-preview {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px 30px 20px 60px; 
+  align-items: center;
+}
+.miniature-preview {
+  margin: 0;
+  margin-right: 30px;
+  width: 40%;
+  height: 197px;
+  display: inherit;
+  align-items: center;
+}
+.miniature-preview img {
+  width: 100%;
+  height: 100%;
+}
+.content-preview {
+  width: 56%;
+}
+.content-preview a {
+  text-decoration: none;
+  color: rgb(0, 89, 255);
+  font-size: 1.4em;
+}
+.content-preview h3 {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.content-preview h4 {
+  margin: 0;
+  margin-bottom: 6px;
+  font-weight: 100;
+}
+.content-p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.others-preview {
+  display: flex;
+  align-items: center;
+}
+.perfil-post {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  margin-right: 20px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.perfil-post img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  
+}
+.name-perfil {
+  width: 46%;
+  margin: 0;
+}
+.icon-preview {
+  width: 30%;
+}
+.icon-preview i{
+  margin-left: 10px;
+}
+.heart-number {
+  margin: 0 4px;
+} 
