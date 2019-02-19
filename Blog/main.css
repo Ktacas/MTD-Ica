@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: 'Dosis', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 /* GRID CONTAINER */
 .container {
@@ -28,7 +28,7 @@ body {
 .post {
     grid-area: post;
     background: rgb(255, 196, 0);
-      }
+   }
 .aside {
     grid-area: aside;
     background: rgb(2, 120, 255);
@@ -41,13 +41,75 @@ body {
     grid-area: footer;
     background: rgb(255, 81, 0);
 }
-/* HEADER   */
-body .header {
+
+/* -------------------------------HEADER------------------------------- */
+.header {
     grid-area: header;
     height: 70px; 
+    width: 100%;
     position: fixed;
     /* background: rgba(0, 0, 0, .6);   */
     background: black;
-    width: 100%;
-    color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
   }
+/* contenedor */
+.container_header {
+  display: inherit;
+  justify-content: inherit;
+  height: inherit;
+  align-items: center;
+  margin: 0 auto;
+
+  flex: 1;
+}
+/* logo */
+.logo {
+  margin: 0;
+  margin-left: 55px;
+  display: inherit;
+  align-items: center;
+}
+/* imagen-logo */
+.logo img {
+  width: auto;
+  height: 50px;
+}
+/* nav */
+.menu {
+  height: inherit;
+}
+/* contedor-items */
+.menu ul {
+  font-size: 1.2em;
+  margin: 0px;
+  margin-right: 55px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  height: inherit;
+}
+/* items */
+.menu li {
+  margin: 0;
+  margin-right: 25px;
+  height: inherit;
+}
+/* enlaces-items */
+.menu a {
+  text-decoration: none;
+  color: azure;
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+/* ultimo-item */
+ul li:last-child {
+  border: 2px solid azure;
+  height: 19px;
+  border-radius: 60px;
+  padding: 9px 15px;
+  margin: auto;
+}
+
