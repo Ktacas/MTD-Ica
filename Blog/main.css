@@ -16,18 +16,8 @@ body {
                          "other ."
                          "footer footer";
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 70px repeat(7,300px) 30px 50px;
+    grid-template-rows: 70px repeat(7,300px) 100px 50px;
     grid-gap: 10px;
-}
-.item {
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: center;
-    align-items: center
-    }
-.other {
-    grid-area: other;
-    background: rgb(112, 2, 255);
 }
 /* -------------------------------HEADER------------------------------- */
 .header {
@@ -93,7 +83,7 @@ body {
   height: inherit;
 }
 /* ultimo-item */
-ul li:last-child {
+.menu li:last-child {
   border: 2px solid azure;
   height: 19px;
   border-radius: 60px;
@@ -307,7 +297,47 @@ ul li:last-child {
   width:80px;
   margin: auto;
 }
-
+/* -------------------------------OTHER------------------------------- */
+.other {
+  grid-area: other;
+  display: flex;
+  justify-content: center;
+}
+.container-other {
+  height: 30px;
+  display:inherit;
+  
+}
+.pagination-other {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display:inherit;
+  height: inherit;
+  align-items: center;
+}
+.item-other {
+  display:flex;
+  width: 21px;
+  height: 28px;
+  border: 1px solid rgb(84, 95, 105);
+  justify-content:center;
+  align-items: center;
+  margin: 0 4px;
+}
+.link-other {
+  color: #2C333A;
+  font-weight: 400;
+  text-decoration: none;
+}
+.pagination-other .item-other:last-child {
+  background: #0078EF;
+  border-color: #0078EF;
+}
+.link-other i {
+  font-size: 1.3em;
+  color: white;
+}
 /* -------------------------------FOOTER------------------------------- */
 .footer {
   background: rgb(0, 0, 0);
