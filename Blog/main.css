@@ -171,7 +171,9 @@ body {
 .heart-number {
   margin: 0 4px;
 }
-
+.comment-number {
+  margin: 0 4px;
+}
 /* -------------------------------SEARCH------------------------------- */
 .aside {
   grid-area: aside;
@@ -375,5 +377,3 @@ font-size: 1.2em;
 text-decoration: none;
 color: white;
 }
-
-/* -------------------------------BLOG/DETALLE------------------------------- */
