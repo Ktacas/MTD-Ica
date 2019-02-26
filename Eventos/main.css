@@ -11,8 +11,8 @@ body {
                           "miniature"
                           "footer";
     grid-template-columns: 1fr;
-    grid-template-rows: 650px repeat(3,300px) 50px;
-    grid-gap: 10px;
+    grid-template-rows: 650px auto 50px;
+    grid-gap: 76px;
 }
 
 /* -------------------------------HEADER------------------------------- */
@@ -87,7 +87,7 @@ body {
   margin: auto;
 }
 
-/* -------------------------------HEADER------------------------------- */
+/* -------------------------------HERO------------------------------- */
 .hero {
     grid-area: hero;
     padding-top: 70px;
@@ -160,21 +160,90 @@ body {
     z-index: 1;
 }
 
+/* -------------------------------GALLERY------------------------------- */
 .miniature {
     grid-area: miniature;
-    background: rgb(0, 119, 255);
     display: grid;
-    grid-template-columns: repeat(3, minmax(100px,293px));
+    grid-template-columns: repeat(3, minmax(100px,396px));
+    grid-template-rows: repeat(3,396px);
     justify-content: center;
     grid-gap: 28px;
 }
 .items {
     background: rgb(188, 4, 208);
-    border: 1px solid black;
     display: block;
     margin: 0px;
+    cursor:pointer;
+    position: relative;
 }
+.image-items {
+    margin: 0;
+}
+.post-overlay {
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.post-overlay h3 {
+    font-size: 2em;
+    font-weight: 100;
+    width: 350px;
+}
+.post-overlay p {
+    font-size: 1.13em;
+    width: 350px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+    font-weight: 500;
+}
+.post-overlay span {
+    color: #0078EF;
+}
+.items:hover .post-overlay {
+    display: flex;
+}
+/* -------------------------------FOOTER------------------------------- */
 .footer {
-    grid-area: footer;
-    background: rgb(255, 0, 64);
+    background: rgb(0, 0, 0);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    justify-content: space-between;
+  }
+.logo_footer {
+  margin: 0;
+  margin-left: 55px;
+  display: inherit;
+  align-items: center;
+  }
+/* imagen-logo */
+.logo_footer img {
+    width: auto;
+    height: 50px;
+  }
+.info_footer {
+    display: flex;
+    align-items: center;
+  }
+.info_footer p {
+  margin: 0;
+  margin-right: 55px;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1.2em;
+}
+.info_footer a {
+  text-decoration: none;
+  color: white;
 }
