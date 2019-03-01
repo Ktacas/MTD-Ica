@@ -1,0 +1,51 @@
+.admin_blog_container h1{
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    background-color: red;
+}
+
+.admin_blog_container #btn_nuevo{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(51, 47, 47);
+    float: right;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 20%;
+}
+
+.admin_blog_container #btn_editar,#btn_eliminar{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    width: 30px;
+    height: auto;
+    padding: 1px;
+    margin: 1px;
+    background-color:rgb(148, 137, 137);
+    border-style: solid;
+    border-color: rgb(116, 111, 111);
+    border-radius: 10%;
+}
+
+#adminB_section_tabla{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    margin-left: -45%;
+}
+
+#adminB_section_tabla table{
+    width: 100%;
+}
+
+#adminB_section_tabla table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
