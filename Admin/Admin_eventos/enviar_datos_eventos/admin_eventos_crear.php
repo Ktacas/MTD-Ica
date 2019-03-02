@@ -26,24 +26,20 @@
     
     <form action="guardar_eventos.php" name="formenviar" id="formenviar" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
         <label>Titulo: <input type="text" REQUIRED name="titulo" placeholder="pon el titulo"></label> <br><br>
+        <label>SubTitulo: <input type="text" REQUIRED name="subtitulo" placeholder="pon el subtitulo"></label> <br><br>
         <label>Fecha: <input type="date" REQUIRED name="fecha"></label> <br><br>
-        <label>Imagen: <input type="file" REQUIRED name="imagen"></label><br><br>
-        <label>Enlace: <input type="text" REQUIRED name="enlace" placeholder="pon el id del enlace"></label> <br><br>
-        <label>Categoria: <select name="categoria"><option>C#</option><option>Xamarin</option><option>MTDeveloper</option></select> <br><br>
+        <label>Hora: <input type="time" REQUIRED name="hora"></label> <br><br>
+        <label>Imagen: <input type="file" REQUIRED name="imagen" stile="display: none"></label> <span style="Color: Red;">Tamaño Máximo: 2,048KB</span> <br><br>
         <label>Descripcion: <textarea REQUIRED name="descripcion" rows="5" cols="40" placeholder="pon la descripcion aqui" maxlength="140"></textarea></label><br><br>
+        <label>Lugar: <input type="text" REQUIRED name="lugar" placeholder="pon lugar del evento"></label> <br><br>
+        <label>Enlace Mapa: <input type="text" REQUIRED name="enlace" placeholder="pon los parametros del mapa"></label> <br><br>
         
         <input type="submit" value="enviar" name="enviar">
 
         <a href="../visualizacion_datos_eventos/visualizar_eventos.php">Carcelar</a><br>
-        
-        <!-- https://img.youtube.com/vi/"ID del video aqui"/hq2.jpg -->
-
-        <label>Contenido: <textarea REQUIRED name="contenido" rows="25" cols="100" placeholder="Coloca el contenido" maxlength="1100"x></textarea></label><br><br>
     </form>
 <br>
     
-
-
 </div>
 
 </body>
