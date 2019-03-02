@@ -1,5 +1,5 @@
 <?php
-    include '../Admin/conexion_db_blog.php';
+    $conexion=mysqli_connect('localhost','root','','dbblog');
 
     $query2 = "SELECT * FROM dtblog";
 

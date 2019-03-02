@@ -15,7 +15,7 @@
 
 <body>
 <?php 
-    include '../Admin/conexion_db_blog.php';
+    $conexion=mysqli_connect('localhost','root','','dbblog');
         
     $id=$_REQUEST['ID_titulo'];
     $query = "SELECT * FROM dtblog WHERE ID_titulo='$id'";

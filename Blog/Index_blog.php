@@ -34,7 +34,7 @@
         </header>
         <section class="post">
             <?php
-                include '../Admin/conexion_db_blog.php';
+                include '../Admin/Admin_blog/conexion_db_blog.php';
 
                 $por_pagina=6;
 
