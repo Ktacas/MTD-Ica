@@ -9,7 +9,7 @@
 <div class="admin_blog_container">
     <form>        
         <div id="adminB_section_tabla">
-            <a id="btn_nuevo" href="../enviar_datos_eventos/admin_eventos_crear.php">Nuevo</a>
+            <a id="btn_nuevo" href="../enviar_datos_eventos/admin_eventos_crear.php">NUevo</a>
             <?php include 'llamar_datos_eventos.php'; ?>
         </div>
     </form>
