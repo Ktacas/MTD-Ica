@@ -1,7 +1,7 @@
 <?php
-    include '../../conexion_db_blog.php';
+    include '../conexion_db_eventos.php';
 
-    $query = "SELECT * FROM dtblog";
+    $query = "SELECT * FROM `tbeventos`";
 
     $resultado= $conexion->query($query);
 
@@ -13,7 +13,7 @@
                 </tr>
 
                 <tr>
-                    <th colspan="4"><?php echo $row['titulo']; ?></th>
+                    <th colspan="4"><?php echo $row['Titulo']; ?></th>
                 </tr>
     
                 <tr>
@@ -24,23 +24,23 @@
     
                 <tr>
                     <td rowspan="2">
-                        <img src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']); ?>" width="100" heigth="100" name="imagenv" id="imagenv">
+                        <img src="data:image/jpg;base64,<?php echo base64_encode($row['Imagen']); ?>" width="100" heigth="100" name="imagenv" id="imagenv">
                     </td>
                     <td rowspan="2">
-                        <p name="descripcion" id="descripcion"><?php echo $row['descripcion']; ?></p>
+                        <p name="descripcion" id="descripcion"><?php echo $row['Descripcion']; ?></p>
                     </td>
                     <td colspan="2">
-                        <input type="button" value="visualizar" id="adminB_button" name="AB_visualizar" >
+                        <input type="button" value="visualizar" id="adminE_button" name="AE_visualizar" >
                     </td>
                 </tr>
     
                 <tr>
                     <td>
-                        <a id="btn_editar" href="modificar_admin_blog/modificar_blog.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">Editar</a>
+                        <a id="btn_editar" href="modificar_admin_eventos/modificar_eventos.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">Editar</a>
                     </td>
     
                     <td>
-                    <a id="btn_eliminar" href="eliminar_admin_blog/eliminar_blog.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">Eliminar</a>                        
+                    <a id="btn_eliminar" href="eliminar_admin_eventos/eliminar_eventos.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">Eliminar</a>                        
                     </td>
                 </tr>
             </table>
