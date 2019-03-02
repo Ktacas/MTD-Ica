@@ -23,7 +23,7 @@
 
 <body>
     <?php 
-        include '../../../conexion_db_blog.php';
+        include '../../conexion_db_blog.php';
 
         $id=$_REQUEST['ID_titulo'];
         $query = "SELECT * FROM dtblog WHERE ID_titulo='$id'";

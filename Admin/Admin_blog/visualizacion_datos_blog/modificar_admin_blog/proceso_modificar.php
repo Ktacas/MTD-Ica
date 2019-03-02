@@ -1,5 +1,5 @@
 <?php
-    include '../../../conexion_db_blog.php';
+    include '../../conexion_db_blog.php';
 
     $id=$_REQUEST['ID_titulo'];
     $imagen=addslashes(file_get_contents($_FILES['imagen']['tmp_name']));

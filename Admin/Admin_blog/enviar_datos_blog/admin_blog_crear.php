@@ -35,8 +35,6 @@
         <input type="submit" value="enviar" name="enviar">
 
         <a href="../visualizacion_datos_blog/visualizar_blog.php">Carcelar</a><br>
-        
-        <!-- https://img.youtube.com/vi/"ID del video aqui"/hq2.jpg -->
 
         <label>Contenido: <textarea REQUIRED name="contenido" rows="25" cols="100" placeholder="Coloca el contenido" maxlength="1100"x></textarea></label><br><br>
     </form>
