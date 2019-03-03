@@ -1,0 +1,48 @@
+#coreMI_contenido_imagen{
+    width: 28rem;
+    height: 18rem;
+    margin: auto;
+}
+
+#coreMI_contenido_imagen1{
+    text-align: center;
+}
+
+#coreMI_img_foto{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+}
+
+#coreMI_contenido_imagen_text_1{
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#coreMI_contenido_imagen_text_2{
+    width: 16rem;
+    background: #1061AE;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    margin-left: 110px;
+
+}
+
+#coreMI_img_medalla{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin-top:-67px; 
+    margin-left: 70px
+}
+
