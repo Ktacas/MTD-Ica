@@ -1,0 +1,26 @@
+<?php
+    include '../../conexion_db_eventos.php';
+
+    $id=$_REQUEST['ID_titulo'];
+    $imagen=addslashes(file_get_contents($_FILES['imagen']['tmp_name']));
+    $fecha=$_POST['fecha'];
+    $hora=$_POST['hora'];
+    $titulo=$_POST['titulo'];
+    $subtitulo=$_POST['subtitulo'];
+    $descripcion=$_POST['descripcion'];
+    $enlace=$_POST['enlace'];
+    $lugar=$_POST['lugar'];
+
+    if(isset($_REQUEST['modificar'])){
+        $query="UPDATE `tbeventos` SET Titulo='$titulo', Subtitulo='$subtitulo', Imagen='$imagen', fecha='$fecha', Hora='$hora',Imagen='$imagen', Descripcion='$descripcion', Lugar='$lugar', Enlace='$enlace'
+                    WHERE ID_titulo ='$id'";
+        
+        $resultado= $conexion ->query($query);
+    
+        if($resultado){
+            header('Location: ../visualizar_eventos.php');
+        }else{
+            echo '<script> alert("Error")</script>';
+        };
+    }
+?>
