@@ -26,16 +26,18 @@
                 <!-- nav -->
                 <nav class="menu">
                     <ul>
-                        <li><a href="../Principal/index.php">Inicio</a></li>
-                        <li><a href="#">Core</a></li>
-                        <li><a href="#">Eventos</a></li>
-                        <li><a href="../Blog/Index_blog.php">Blogs</a></li>
-                        <li><a href="#">Se miembro</a></li>
+                        <li><a class="cool-link" href="../Principal/index.php">Inicio</a></li>
+                        <li><a class="cool-link" href="../Core/Index_core.php">Core</a></li>
+                        <li><a class="cool-link" href="../Eventos/Index_eventos.php">Eventos</a></li>
+                        <li><a class="cool-link" href="../Blog/Index_blog.php">Blogs</a></li>
+                        <li><a class="button-link" href="#">Se miembro</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <section class="hero">
+            <div class="black"></div>
+            <div class="black"></div>
             <div class="content">
                 <div class="circle-content"></div>
                 <h2 class="title-content">Lorem ipsum dolor sit amet, consectetur adip</h2>
@@ -48,7 +50,7 @@
             </figure>
         </section>
         <section class="miniature">
-            <a href="#" class="items">
+            <a href="Eventos.php" class="items">
                 <figure class="image-items">
                     <img src="../images/g2.png" alt="">
                 </figure>

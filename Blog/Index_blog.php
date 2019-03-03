@@ -23,38 +23,41 @@
                 <!-- nav -->
                 <nav class="menu">
                     <ul>
-                        <li><a href="../Principal/index.php">Inicio</a></li>
-                        <li><a href="#">Core</a></li>
-                        <li><a href="../Eventos/Index_eventos.php">Eventos</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Se miembro</a></li>
+                        <li><a class="cool-link" href="../Principal/index.php">Inicio</a></li>
+                        <li><a class="cool-link" href="../Core/Index_core.php">Core</a></li>
+                        <li><a class="cool-link" href="../Eventos/Index_eventos.php">Eventos</a></li>
+                        <li><a class="cool-link" href="../Blog/Index_blog.php">Blogs</a></li>
+                        <li><a class="button-link" href="#">Se miembro</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <section class="post">
             <?php
-                include '../Admin/Admin_blog/conexion_db_blog.php';
-
-                $por_pagina=6;
-
-                if(isset($_GET['pagina'])){
-                    $pagina=$_GET['pagina'];
-                }else{
-                    $pagina= 1;
-                }
+            include '../Admin/Admin_blog/conexion_db_blog.php';
             
-                $empieza=($pagina-1)*$por_pagina;
+            $por_pagina=6;
             
-                $query = "SELECT * FROM dtblog LIMIT $empieza, $por_pagina";
+            if(isset($_GET['pagina'])){
+                $pagina=$_GET['pagina'];
+            }else{
+                $pagina= 1;
+            }
             
-                $resultado= $conexion->query($query);
+            $empieza=($pagina-1)*$por_pagina;
             
-                while ($row = $resultado->fetch_assoc()){
-             ?>
-             <article class="post-preview">
+            $query = "SELECT * FROM dtblog LIMIT $empieza, $por_pagina";
+            
+            $resultado= $conexion->query($query);
+            
+            while ($row = $resultado->fetch_assoc()){
+                ?>
+                
+            <article class="post-preview">
                 <figure class="miniature-preview">
-                    <img src="https://img.youtube.com/vi/<?php echo $row['enlace'];?>/hq2.jpg" alt="">
+                    <a href="blog.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">
+                        <img src="https://img.youtube.com/vi/<?php echo $row['enlace'];?>/hq2.jpg" alt="">
+                    </a>
                 </figure> 
                 <div class="content-preview">
                     <a href="blog.php?ID_titulo=<?php echo $row['ID_titulo']; ?>"><?php echo $row['categoria']; ?></a>
@@ -75,9 +78,11 @@
                     </div>
                 </div>
             </article>
-             <?php
+                    
+            <?php
                 }
-             ?>
+            ?>
+
         </section>
         <aside class="aside">
             <div class="container-search">

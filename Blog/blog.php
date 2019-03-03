@@ -14,16 +14,16 @@
 </head>
 
 <body>
-<?php 
+    <?php 
     $conexion=mysqli_connect('localhost','root','','dbblog');
-        
+    
     $id=$_REQUEST['ID_titulo'];
     $query = "SELECT * FROM dtblog WHERE ID_titulo='$id'";
-        
+    
     $resultado= $conexion->query($query);
-        
+    
     $row = $resultado->fetch_assoc();   
-?>
+    ?>
 
     <div class="container">
         <header class="header">
@@ -36,11 +36,11 @@
                 <!-- nav -->
                 <nav class="menu">
                     <ul>
-                        <li><a href="../Principal/index.php">Inicio</a></li>
-                        <li><a href="#">Core</a></li>
-                        <li><a href="../Eventos/Index_eventos.php">Eventos</a></li>
-                        <li><a href="Index_blog.php">Blogs</a></li>
-                        <li><a href="#">Se miembro</a></li>
+                        <li><a class="cool-link" href="../Principal/index.php">Inicio</a></li>
+                        <li><a class="cool-link" href="../Core/Index_core.php">Core</a></li>
+                        <li><a class="cool-link" href="../Eventos/Index_eventos.php">Eventos</a></li>
+                        <li><a class="cool-link" href="Index_blog.php">Blogs</a></li>
+                        <li><a class="button-link" href="#">Se miembro</a></li>
                     </ul>
                 </nav>
             </div>
@@ -48,7 +48,7 @@
         <section class="content">
             <h2 class="title-content"><?php echo $row['titulo']; ?></h2>
             <figure class="image-content">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo $row['enlace'];?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo $row['enlace'];?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </figure>
             <div class="details-content">
                 <h4><?php echo $row['fecha']; ?></h4>
@@ -125,7 +125,7 @@
             <div class="container-comment">
                     <div class="tag-comment">Escriba un comentario</div>
                     <form class="text-comment" action="enviar_comentario.php?ID_titulo=<?php echo $id=$_REQUEST['ID_titulo']; ?>" method="POST">
-                        <textarea id="comentario" name="comentario" cols="30" rows="10"></textarea>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
                         <input type="submit" value="Comentar" name="comentar" id="comentar" class="button-comment">
                     </form>
             </div>       

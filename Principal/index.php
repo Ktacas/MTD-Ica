@@ -26,11 +26,11 @@
                 <!-- nav -->
                 <nav class="menu">
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Core</a></li>
-                        <li><a href="../Eventos/Index_eventos.php">Eventos</a></li>
-                        <li><a href="../Blog/Index_blog.php">Blogs</a></li>
-                        <li><a href="#">Se miembro</a></li>
+                        <li><a class="cool-link" href="index.php">Inicio</a></li>
+                        <li><a class="cool-link" href="../Core/Index_core.php">Core</a></li>
+                        <li><a class="cool-link" href="../Eventos/Index_eventos.php">Eventos</a></li>
+                        <li><a class="cool-link" href="../Blog/Index_blog.php">Blogs</a></li>
+                        <li><a class="button-link" href="#">Se miembro</a></li>
                     </ul>
                 </nav>
             </div>
@@ -42,7 +42,7 @@
             <div class="overlay"></div>
             <!-- contenedor-texto -->
             <div class="content">
-                <h1>aprende, crea y comparte</h1>
+                <h1 class="anim-typewriter">aprende, crea y comparte</h1>
                 <h4>¿Ya eres parte de nuestro equipo?</h4>
                 <a href="#">Descrubre más</a>
             </div>
@@ -63,25 +63,101 @@
             </div>
         </section>
         <section class="events">
-            <div class="container_events">
-                <div class="division_events">
-                    <div class="tag_events">Eventos</div>
-                    <h2 class="title_events">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt</h2>
-                    <p class="description_events">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris
-                    </p>
-                    <a class="bottom_events" href="#">Más info</a>
-                    <div class="line_events"></div>
-                    <figure class="image_events">
-                        <img src="../images/eventos_principal1.png" alt="">
-                    </figure>
+            <div class="slider">
+                <div class="slide">
+                    <div class="container_events">
+                        <div class="division_events">
+                            <div class="transparent"></div>
+                            <div class="tag_events">Eventos</div>
+                            <h2 class="title_events">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor incididunt</h2>
+                            <p class="description_events">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris
+                            </p>
+                            <a class="bottom_events" href="#">Más info</a>
+                            <div class="line_events"></div>
+                            <figure class="image_events">
+                                <img src="../images/eventos_principal1.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="container_events">
+                        <div class="division_events">
+                            <div class="transparent"></div>
+                            <div class="tag_events">Eventos</div>
+                            <h2 class="title_events">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor incididunt</h2>
+                            <p class="description_events">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris
+                            </p>
+                            <a class="bottom_events" href="#">Más info</a>
+                            <div class="line_events"></div>
+                            <figure class="image_events">
+                                <img src="../images/eventos_principal1.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="container_events">
+                        <div class="division_events">
+                            <div class="transparent"></div>
+                            <div class="tag_events">Eventos</div>
+                            <h2 class="title_events">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor incididunt</h2>
+                            <p class="description_events">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris
+                            </p>
+                            <a class="bottom_events" href="#">Más info</a>
+                            <div class="line_events"></div>
+                            <figure class="image_events">
+                                <img src="../images/eventos_principal1.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="container_events">
+                        <div class="division_events">
+                            <div class="transparent"></div>
+                            <div class="tag_events">Eventos</div>
+                            <h2 class="title_events">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor incididunt</h2>
+                            <p class="description_events">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris
+                            </p>
+                            <a class="bottom_events" href="#">Más info</a>
+                            <div class="line_events"></div>
+                            <figure class="image_events">
+                                <img src="../images/eventos_principal1.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        
         <section class="blog">
             <div class="container_blog">
                 <div class="division_blog">
@@ -91,7 +167,7 @@
                     <div class="container_box">
                         <?php include 'index_visualizacion.php' ?>
                     </div>
-                    <a class="bottom_blog" href="../Blog/Index_blog.php">Ver más</a>
+                    <a class="bottom_blog" href="#">Ver más</a>
                 </div>
             </div>
         </section>
@@ -115,18 +191,18 @@
             </div>
         </section>
         <footer class="footer">
-                <!-- logo -->
-                <figure class="logo_footer">
-                    <img src="../images/Blanco800x346.png" alt="logo">
-                </figure>
-                <div class="info_footer">
-                    <p>Design with 💕by 
-                        <a href="#">@DanPipa</a>
-                        <a href="#">@Karlxs</a>
-                        <a href="#">@TheJeus</a>
-                        <a href="#">@Arnolín</a>
-                    </p>
-                </div>
+            <!-- logo -->
+            <figure class="logo_footer">
+                <img src="../images/Blanco800x346.png" alt="logo">
+            </figure>
+            <div class="info_footer">
+                <p>Design with 💕by
+                    <a href="#">@DanPipa</a>
+                    <a href="#">@Karlxs</a>
+                    <a href="#">@TheJeus</a>
+                    <a href="#">@Arnolín</a>
+                </p>
+            </div>
         </footer>
     </div>
 </body>
