@@ -8,16 +8,10 @@ body {
     display: grid;
     grid-template-areas: "header header"
                          "post aside"
-                         "post aside"
-                         "post aside"
-                         "post aside"
-                         "post ."  
-                         "post ."   
-                         "post ."
                          "other ."
                          "footer footer";
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 70px repeat(7,300px) 100px 50px;
+    grid-template-rows: 70px auto 100px 50px;
     grid-gap: 10px;
 }
 /* -------------------------------HEADER------------------------------- */
@@ -118,6 +112,7 @@ color: black;
 .post {
   grid-area: post;
   padding: 20px 20px;
+  padding-top: 60px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -125,7 +120,7 @@ color: black;
  .post-preview {
   display: flex;
   flex-wrap: wrap;
-  margin: 40px 30px 20px 40px; 
+  margin: 0 30px 20px 40px; 
   align-items: center;
 }
 .miniature-preview {
@@ -135,6 +130,11 @@ color: black;
   height: 197px;
   display: inherit;
   align-items: center;
+}
+.miniature-preview a {
+  margin: 0;  
+  width: 100%;
+  height: 100%;
 }
 .miniature-preview img {
   width: 100%;

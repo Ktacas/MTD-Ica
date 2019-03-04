@@ -1,0 +1,151 @@
+body{
+    
+	padding-top: 0px;
+	margin: auto;
+}
+            	
+#circular{
+	width: 250px;
+	height: 50px;
+	border-radius: 100px 100px 100px 100px;
+	background: #1E2327;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+	margin-left: 40px;
+	position: relative;
+    margin-top: 2px;
+    
+}
+
+#circular > h1 {
+	font-family: sans-serif;
+	color: #E5E6E8;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+#fondo{
+    width: 100%;
+    height: 610px;
+	background: #181B20;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -25px;
+	
+}
+#caja{
+    margin: auto;
+    margin-top: 2.5%;
+    height: 70%;
+    width: 90%;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#img{
+    width: 100%;
+    height: 52%;
+}
+
+#izquierdo{
+
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top:10%;
+    float: left;
+    margin-top: 0%;
+
+}
+#medio{
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+    margin-top:0%;
+}
+#derecho{
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+    margin-top:0%;
+}
+
+div#imagen{
+	width: 15%;
+	height: 12%;
+	margin-top: 0px;
+	position: relative;
+	left: 25%;
+	border-radius: 100px;
+
+}
+div#nombre{
+	width: 50%;
+	height: 100%;
+	position: relative;
+    left: 42%;
+    margin-top: -12%;
+}
+#img1{
+    width: 100%;
+	height: 100%;
+	border-radius: 100px;
+}
+#txt{
+    margin-top: 6px;
+    width: 100%;
+    height: 100%;
+    
+}
+#txt1{
+    text-align: center;
+    font-size: 22px;
+    width: 100%;
+}
+#txt2{
+    text-align: center;
+    margin-top:1%;
+    width: 100%;
+    position: relative;
+}
+#color{
+    color: rgba(0, 132, 255, 0.897);
+}
+
+.button {	
+    box-shadow: inset 0 0 0 2.5px #fff;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 600;
+    height: 3.125em;
+    letter-spacing: 0.100em;
+    line-height: 3.125em;
+    max-width: 30em;
+    padding: 0 2.4em;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 180px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    margin-left: 45%;
+    margin-top: 40px;
+}
+input[type="submit"]:hover,
+    input[type="reset"]:hover,
+    input[type="button"]:hover,
+    button:hover,
+    .button:hover {
+        background-color: rgba(144, 144, 144, 0.25);
+    }
