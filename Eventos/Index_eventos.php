@@ -35,111 +35,14 @@
                 </nav>
             </div>
         </header>
-        
+
         <?php
             $conexion=mysqli_connect('localhost','root','','dbeventos');
-
-            $query = "SELECT * FROM dteventos";
-
-            $resultado= $conexion->query($query);
         ?>
-
-        <section class="hero">
-            <div class="black"></div>
-            <div class="black"></div>
-            <div class="content">
-                <div class="circle-content"></div>
-                <h2 class="title-content">Lorem ipsum dolor sit amet, consectetur adip</h2>
-                <h4 class="sub-content">Lorem ipsum dolor sit amet, consectetur adip</h4>
-                <p class="date-content">Lorem ipsum dolor sit amet, consectetur adip</p>
-                <a href="" class="button-content">Ver más</a>
-            </div>
-            <figure class="event-image">
-                <img src="../images/eventos_principal1.png" alt="">
-            </figure>
-        </section>
+        <?php include 'eventos_activos.php' ?>
+        
         <section class="miniature">
-            <a href="Eventos.php" class="items">
-                <figure class="image-items">
-                    <img src="../images/g2.png" alt="">
-                </figure>
-                <span class="post-overlay">
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h3>
-                    <p>Lorem <span>ipsum dolor sit</span> amet, consectetur adipiscing elit, sed</p>
-                </span>
-            </a>
-            <a href="#" class="items">
-                <figure class="image-items">
-                    <img src="../images/g1.png" alt="">
-                </figure>
-                <span class="post-overlay">
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h3>
-                    <p>Lorem <span>ipsum dolor sit</span> amet, consectetur adipiscing elit, sed</p>
-                </span>
-            </a>
-            <a href="#" class="items">
-                <figure class="image-items">
-                    <img src="../images/g3.png" alt="">
-                </figure>
-                <span class="post-overlay">
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h3>
-                    <p>Lorem <span>ipsum dolor sit</span> amet, consectetur adipiscing elit, sed</p>
-                </span>
-            </a>
-            <a href="#" class="items">
-                <figure class="image-items">
-                    <img src="../images/g2.png" alt="">
-                </figure>
-                <span class="post-overlay">
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h3>
-                    <p>Lorem <span>ipsum dolor sit</span> amet, consectetur adipiscing elit, sed</p>
-                </span>
-            </a>
-            <a href="#" class="items">
-                <figure class="image-items">
-                    <img src="../images/g1.png" alt="">
-                </figure>
-                <span class="post-overlay">
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h3>
-                    <p>Lorem <span>ipsum dolor sit</span> amet, consectetur adipiscing elit, sed</p>
-                </span>
-            </a>
-            <a href="#" class="items">
-                <figure class="image-items">
-                    <img src="../images/g3.png" alt="">
-                </figure>
-                <span class="post-overlay">
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h3>
-                    <p>Lorem <span>ipsum dolor sit</span> amet, consectetur adipiscing elit, sed</p>
-                </span>
-            </a>
-            <a href="#" class="items">
-                <figure class="image-items">
-                    <img src="../images/g2.png" alt="">
-                </figure>
-                <span class="post-overlay">
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h3>
-                    <p>Lorem <span>ipsum dolor sit</span> amet, consectetur adipiscing elit, sed</p>
-                </span>
-            </a>
-            <a href="#" class="items">
-                <figure class="image-items">
-                    <img src="../images/g1.png" alt="">
-                </figure>
-                <span class="post-overlay">
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h3>
-                    <p>Lorem <span>ipsum dolor sit</span> amet, consectetur adipiscing elit, sed</p>
-                </span>
-            </a>
-            <a href="#" class="items">
-                <figure class="image-items">
-                    <img src="../images/g3.png" alt="">
-                </figure>
-                <span class="post-overlay">
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h3>
-                    <p>Lorem <span>ipsum dolor sit</span> amet, consectetur adipiscing elit, sed</p>
-                </span>
-            </a>
+            <?php include 'eventos_finalizados.php' ?>            
         </section>
         <footer class="footer">
             <!-- logo -->
