@@ -12,13 +12,13 @@
             <img src="https://img.youtube.com/vi/<?php echo $row['enlace'];?>/hq2.jpg" alt="">
         </figure>
         <div class="detail_box">
-            <h4><a href="../Blog/blog.php?ID_titulo=<?php echo $row['ID_titulo']; ?>"><?php echo $row['titulo']; ?></a></h4>
+            <h4><a class="link-box" href="../Blog/blog.php?ID_titulo=<?php echo $row['ID_titulo']; ?>"><?php echo $row['titulo']; ?></a></h4>
             <p><?php echo $row['categoria']; ?> <span><?php echo $row['fecha']; ?></span></p>
             <div class="container_box_perfil">
                 <figure class="perfil_box">
                     <img src="../images/perfil_core2.jpg" alt="">
                 </figure>
-                <p>NombreCore</p>
+                <p>Nombre Core</p>
             </div>
         </div>
     </article>
