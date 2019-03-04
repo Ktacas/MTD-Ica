@@ -35,6 +35,15 @@
                 </nav>
             </div>
         </header>
+        
+        <?php
+            $conexion=mysqli_connect('localhost','root','','dbeventos');
+
+            $query = "SELECT * FROM dteventos";
+
+            $resultado= $conexion->query($query);
+        ?>
+
         <section class="hero">
             <div class="black"></div>
             <div class="black"></div>
