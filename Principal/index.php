@@ -58,7 +58,7 @@
                     <div class="descripion_core">
                         <p>Lorem ipsum <span>dolor sit amet</span>, consectetur </p>
                     </div>
-                    <a class="bottom_core" href="#">Más info</a>
+                    <a class="bottom_core" href="../Core/Index_core.php">Más info</a>
                 </div>
             </div>
         </section>
