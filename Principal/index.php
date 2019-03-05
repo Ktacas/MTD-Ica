@@ -64,98 +64,7 @@
         </section>
         <section class="events">
             <div class="slider">
-                <div class="slide">
-                    <div class="container_events">
-                        <div class="division_events">
-                            <div class="transparent"></div>
-                            <div class="tag_events">Eventos</div>
-                            <h2 class="title_events">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod
-                                tempor incididunt</h2>
-                            <p class="description_events">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco
-                                laboris
-                            </p>
-                            <a class="bottom_events" href="#">Más info</a>
-                            <div class="line_events"></div>
-                            <figure class="image_events">
-                                <img src="../images/eventos_principal1.png" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="container_events">
-                        <div class="division_events">
-                            <div class="transparent"></div>
-                            <div class="tag_events">Eventos</div>
-                            <h2 class="title_events">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod
-                                tempor incididunt</h2>
-                            <p class="description_events">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco
-                                laboris
-                            </p>
-                            <a class="bottom_events" href="#">Más info</a>
-                            <div class="line_events"></div>
-                            <figure class="image_events">
-                                <img src="../images/eventos_principal1.png" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="container_events">
-                        <div class="division_events">
-                            <div class="transparent"></div>
-                            <div class="tag_events">Eventos</div>
-                            <h2 class="title_events">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod
-                                tempor incididunt</h2>
-                            <p class="description_events">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco
-                                laboris
-                            </p>
-                            <a class="bottom_events" href="#">Más info</a>
-                            <div class="line_events"></div>
-                            <figure class="image_events">
-                                <img src="../images/eventos_principal1.png" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="container_events">
-                        <div class="division_events">
-                            <div class="transparent"></div>
-                            <div class="tag_events">Eventos</div>
-                            <h2 class="title_events">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod
-                                tempor incididunt</h2>
-                            <p class="description_events">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco
-                                laboris
-                            </p>
-                            <a class="bottom_events" href="#">Más info</a>
-                            <div class="line_events"></div>
-                            <figure class="image_events">
-                                <img src="../images/eventos_principal1.png" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
+                <?php include 'index_visualizacion_eventos.php' ?>
             </div>
         </section>
         <section class="blog">
@@ -165,9 +74,9 @@
                         <p>Blog</p>
                     </div>
                     <div class="container_box">
-                        <?php include 'index_visualizacion.php' ?>
+                        <?php include 'index_visualizacion_blog.php'; ?>
                     </div>
-                    <a class="bottom_blog" href="#">Ver más</a>
+                    <a class="bottom_blog" href="../Blog/Index_blog.php">Ver más</a>
                 </div>
             </div>
         </section>

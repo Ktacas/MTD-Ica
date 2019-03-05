@@ -1,7 +1,7 @@
 <?php
     $conexion=mysqli_connect('localhost','root','','dbblog');
 
-    $query = "SELECT * FROM dtblog";
+    $query = "SELECT * FROM dtblog ORDER BY ID_titulo DESC LIMIT 3";
 
     $resultado= $conexion->query($query);
 
