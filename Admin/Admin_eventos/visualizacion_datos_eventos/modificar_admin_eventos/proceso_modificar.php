@@ -10,9 +10,10 @@
     $descripcion=$_POST['descripcion'];
     $enlace=$_POST['enlace'];
     $lugar=$_POST['lugar'];
+    $estado=$_POST['estado'];
 
     if(isset($_REQUEST['modificar'])){
-        $query="UPDATE `tbeventos` SET Titulo='$titulo', Subtitulo='$subtitulo', Imagen='$imagen', fecha='$fecha', Hora='$hora',Imagen='$imagen', Descripcion='$descripcion', Lugar='$lugar', Enlace='$enlace'
+        $query="UPDATE `tbeventos` SET Titulo='$titulo', Subtitulo='$subtitulo', Imagen='$imagen', fecha='$fecha', Hora='$hora',Imagen='$imagen', Descripcion='$descripcion', Lugar='$lugar', Enlace='$enlace', Estado='$estado'
                     WHERE ID_titulo ='$id'";
         
         $resultado= $conexion ->query($query);

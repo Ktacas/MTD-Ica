@@ -33,6 +33,7 @@
         <label>Descripcion: <textarea REQUIRED name="descripcion" rows="5" cols="40" placeholder="pon la descripcion aqui" maxlength="140"></textarea></label><br><br>
         <label>Lugar: <input type="text" REQUIRED name="lugar" placeholder="pon lugar del evento"></label> <br><br>
         <label>Enlace Mapa: <input type="text" REQUIRED name="enlace" placeholder="pon los parametros del mapa"></label> <br><br>
+        <label>Estado: <input type="text" REQUIRED name="estado" placeholder="ACTIVO O FINALIZADO"></label> <br><br>
         
         <input type="submit" value="enviar" name="enviar">
 

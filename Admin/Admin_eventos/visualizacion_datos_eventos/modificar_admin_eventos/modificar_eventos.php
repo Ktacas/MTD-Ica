@@ -54,9 +54,11 @@
         
         <label>Enlace Mapa: <input type="text" REQUIRED name="enlace" value="<?php echo $row['Enlace']; ?>" placeholder="pon los parametros del mapa"></label> <br><br>
         
+        <label>Estado: <input type="text" REQUIRED name="estado" value="<?php echo $row['Estado']; ?>" placeholder="ACTIVO O FINALIZADO"></label> <br><br>
+
         <input type="submit" value="modificar" name="modificar">
 
-        <a id href="visualizar_eventos.php">Cancelar</a><br>
+        <a id href="../visualizar_eventos.php">Cancelar</a><br>
     </form>
 <br>
     <hr>

@@ -9,10 +9,11 @@
     $descripcion=$_POST['descripcion'];
     $enlace=$_POST['enlace'];
     $lugar=$_POST['lugar'];
+    $estado=$_POST['estado'];
 
     if(isset($_REQUEST['enviar'])){
-        $query="INSERT INTO `tbeventos` (`Titulo`, `Subtitulo`, `Fecha`, `Hora`, `Imagen`, `Descripcion`, `Lugar`, `Enlace`) 
-                    VALUES('$titulo','$subtitulo', '$fecha', '$hora','$imagen', '$descripcion', '$lugar', '$enlace')";
+        $query="INSERT INTO `tbeventos` (`Titulo`, `Subtitulo`, `Fecha`, `Hora`, `Imagen`, `Descripcion`, `Lugar`, `Enlace`, `Estado`) 
+                    VALUES('$titulo','$subtitulo', '$fecha', '$hora','$imagen', '$descripcion', '$lugar', '$enlace', '$estado')";
         
         $resultado= $conexion ->query($query);
     
