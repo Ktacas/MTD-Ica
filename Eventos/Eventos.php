@@ -36,6 +36,17 @@
             </div>
         </header>
         <section class="hero">
+            <?php 
+                $conexion=mysqli_connect('localhost','root','','dbeventos');
+
+                $id=$_REQUEST['ID_titulo'];
+
+                $query = "SELECT * FROM `tbeventos` WHERE ID_titulo='$id'";
+                
+                $resultado= $conexion->query($query);
+                
+                $row = $resultado->fetch_assoc();
+            ?>
             <div class="container-hero">
                 <div class="black"></div>
                 <div class="black"></div>
@@ -43,15 +54,15 @@
                     <img src="../images/eventos_principal1.png" alt="">
                 </figure>
                 <div class="content-hero">
-                    <h2>Lorem ipsum dolor sit amet, consectetur adip</h2>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adip</h3>
+                    <h2><?php echo $row['Titulo']; ?></h2>
+                    <h3><?php echo $row['Subtitulo']; ?></h3>
                     <div class="icon-calendar">
                         <i class="far fa-calendar-alt"></i>
-                        <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+                        <p><?php echo $row['Fecha']; ?></p>
                     </div>
                     <div class="icon-clock">
                         <i class="far fa-clock"></i>
-                        <p>Lorem ipsum</p>
+                        <p><?php echo $row['Hora']; ?></p>
                     </div>
                 </div>
             </div>
@@ -60,18 +71,15 @@
             <div class="container-description">
                 <div class="tag-description">Descripción</div>
                 <article class="content-description">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscinit sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua.</p>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <p> <?php echo $row['Descripcion']; ?></p>
+                    <p><?php echo $row['Descripcion']; ?></p>
                 </article>
             </div>
         </section>
         <section class="ubication">
             <div class="container-ubication">
                 <div class="site-ubication"><i class="fas fa-map-marker-alt"></i>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscinit</p>
+                    <p><?php echo $row['Lugar']; ?></p>
                 </div>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.047138589249!2d-75.74188158558547!3d-14.07439378674965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2ec5f515db5%3A0x6fabc73b25a5aa2e!2sEl+Quinde+Shopping+Plaza+Ica!5e0!3m2!1ses!2spe!4v1551626483533"

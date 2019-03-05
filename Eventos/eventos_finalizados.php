@@ -6,7 +6,7 @@
     $resultado= $conexion->query($query);
 
 while ( $row = $resultado->fetch_assoc()){?> 
-    <a href="Eventos.php" class="items">
+    <a href="Eventos.php?ID_titulo=<?php echo $row['ID_titulo']; ?>" class="items">
         <figure class="image-items">
             <img src="../images/g2.png" alt="">
         </figure>

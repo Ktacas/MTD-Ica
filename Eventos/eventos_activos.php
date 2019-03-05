@@ -14,7 +14,7 @@ while ( $row = $resultado->fetch_assoc()){?>
             <h2 class="title-content"><?php echo $row['Titulo']; ?></h2>
             <h4 class="sub-content"><?php echo $row['Subtitulo']; ?></h4>
             <p class="date-content"><?php echo $row['Fecha']; ?></p>
-            <a href="" class="button-content">Ver más</a>
+            <a href="Eventos.php?ID_titulo=<?php echo $row['ID_titulo']; ?>" class="button-content">Ver más</a>
         </div>
         <figure class="event-image">
             <img src="../images/eventos_principal1.png" alt="">
