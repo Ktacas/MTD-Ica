@@ -50,15 +50,20 @@
         <section class="core">
             <div class="container_core">
                 <div class="division_core">
+                    <div class="right">
+                        <div class="rectangle-top"></div>
+                        <div class="rectangle-bottom"></div>
+                    </div>
                     <figure class="image_core">
                         <img src="../images/perfil_core1.jpg" id="img" alt="">
                     </figure>
-                    <h2 class="title_core">Lorem ipsum dolor sit amet, consectetur</br> adipiscing elit, sed do eiusmod
-                    </h2>
+                    <h2 class="title_core">Kattya Garcia Velasquez</h2>
                     <div class="descripion_core">
-                        <p>Lorem ipsum <span>dolor sit amet</span>, consectetur </p>
+                        <h3>Desarrollador de Software, Gestión de proyectos, Desarrollador de Sitios Web y SCRUM</h3>
+                        <p>Microsoft Influencer en <span>MTDeveloper Ica</span> and Community Lead MTDeveloper Ica</p>
                     </div>
                     <a class="bottom_core" href="../Core/Index_core.php">Más info</a>
+                    <div class="left"></div>
                 </div>
             </div>
         </section>
@@ -69,25 +74,48 @@
         </section>
         <section class="blog">
             <div class="container_blog">
+            <i class="fas fa-angle-left"></i>
                 <div class="division_blog">
                     <div class="tag_blog">
-                        <p>Blog</p>
+                        <h2>Blog</h2>
                     </div>
                     <div class="container_box">
                         <?php include 'index_visualizacion_blog.php'; ?>
                     </div>
-                    <a class="bottom_blog" href="../Blog/Index_blog.php">Ver más</a>
                 </div>
+            <i class="fas fa-angle-right"></i>
+            </div>
+            <div class="container-button">
+                <button class="learn-more">
+                    <div class="circle">
+                        <span class="icon arrow"></span>
+                    </div>
+                <p class="button-text">Ver más</p>
+                </button>
             </div>
         </section>
         <section class="contact">
             <div class="container_contact">
-                <div class="top"></div>
                 <div class="bottom">
+                    <div class="bubbels">
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                    </div>
                     <h2 class="title_bottom">¿Quieres ser parte de nuestro equipo?</h2>
-                    <input class="text_bottom" type="text" placeholder="Nombre completo">
-                    <input class="email_bottom" type="email" name="" id="" placeholder="Déjanos tu email">
-                    <button class="button_bottom">Enviar</button>
+                    <div class="container-flex">
+                    <form action="" method="post">
+                        <input class="text_bottom" type="text" placeholder="Nombre completo">
+                        <input class="email_bottom" type="email" name="" id="" placeholder="Déjanos tu email">
+                        <input type="button" value="Enviar" class="button_bottom">
+                    </form>
                     <div class="social_bottom">
                         <a href="#" class="social_link">
                             <i class="fab fa-facebook-square"></i>
@@ -96,8 +124,9 @@
                             <i class="fab fa-github"></i>
                         </a>
                     </div>
-                </div>
-            </div>
+                    </div>
+                </div>     
+            </div>         
         </section>
         <footer class="footer">
             <!-- logo -->
