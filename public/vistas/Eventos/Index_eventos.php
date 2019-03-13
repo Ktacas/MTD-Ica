@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../css/main_e.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
     <title>Eventos</title>
 </head>
-
 <body>
     <div class="container">
         <header class="header">
@@ -21,7 +19,7 @@
             <div class="container_header">
                 <!-- logo -->
                 <figure class="logo">
-                    <img src="../images/Blanco800x346.png" alt="logo">
+                    <img src="../../img/Blanco800x346.png" alt="logo">
                 </figure>
                 <!-- nav -->
                 <nav class="menu">
@@ -47,7 +45,7 @@
         <footer class="footer">
             <!-- logo -->
             <figure class="logo_footer">
-                <img src="../images/Blanco800x346.png" alt="logo">
+                <img src="../../img/Blanco800x346.png" alt="logo">
             </figure>
             <div class="info_footer">
                 <p>Design with 💕by

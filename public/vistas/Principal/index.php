@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/main.css">
     <title>MTDevelopers</title>
 </head>
-
 <body>
     <div class="container">
         <header class="header">
@@ -21,7 +19,7 @@
             <div class="container_header">
                 <!-- logo -->
                 <figure class="logo">
-                    <img src="../images/Blanco800x346.png" alt="logo">
+                    <img src="../../img/Blanco800x346.png" alt="logo">
                 </figure>
                 <!-- nav -->
                 <nav class="menu">
@@ -50,12 +48,8 @@
         <section class="core">
             <div class="container_core">
                 <div class="division_core">
-                    <div class="right">
-                        <div class="rectangle-top"></div>
-                        <div class="rectangle-bottom"></div>
-                    </div>
                     <figure class="image_core">
-                        <img src="../images/perfil_core1.jpg" id="img" alt="">
+                        <img src="../../img/perfil_core1.jpg" id="img" alt="">
                     </figure>
                     <h2 class="title_core">Kattya Garcia Velasquez</h2>
                     <div class="descripion_core">
@@ -63,7 +57,6 @@
                         <p>Microsoft Influencer en <span>MTDeveloper Ica</span> and Community Lead MTDeveloper Ica</p>
                     </div>
                     <a class="bottom_core" href="../Core/Index_core.php">Más info</a>
-                    <div class="left"></div>
                 </div>
             </div>
         </section>
@@ -131,7 +124,7 @@
         <footer class="footer">
             <!-- logo -->
             <figure class="logo_footer">
-                <img src="../images/Blanco800x346.png" alt="logo">
+                <img src="../../img/Blanco800x346.png" alt="logo">
             </figure>
             <div class="info_footer">
                 <p>Design with 💕by

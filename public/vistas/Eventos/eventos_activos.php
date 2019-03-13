@@ -17,7 +17,7 @@ while ( $row = $resultado->fetch_assoc()){?>
             <a href="Eventos.php?ID_titulo=<?php echo $row['ID_titulo']; ?>" class="button-content">Ver más</a>
         </div>
         <figure class="event-image">
-            <img src="../images/eventos_principal1.png" alt="">
+            <img src="../../img/eventos_principal1.png" alt="">
         </figure>
     </section>
 <?php } ?>

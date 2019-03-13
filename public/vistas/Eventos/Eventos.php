@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="../normalize.css">
-    <link rel="stylesheet" href="main_eventos.css">
+    <link rel="stylesheet" type="text/css" href="../../css/main_e.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
     <title>Eventos-2</title>
 </head>
 

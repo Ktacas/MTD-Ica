@@ -8,7 +8,7 @@
 while ( $row = $resultado->fetch_assoc()){?> 
     <a href="Eventos.php?ID_titulo=<?php echo $row['ID_titulo']; ?>" class="items">
         <figure class="image-items">
-            <img src="../images/g2.png" alt="">
+            <img src="../../img/g2.png" alt="">
         </figure>
         <span class="post-overlay">
             <h3><?php echo $row['Titulo']; ?></h3>
