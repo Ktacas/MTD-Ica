@@ -33,6 +33,7 @@
                 </nav>
             </div>
         </header>
+        
         <section class="hero">
             <!-- video -->
             <video src="video/160330_1_Typing1_Mpeg4_4K (2).mp4" autoplay loop muted></video>
@@ -60,11 +61,13 @@
                 </div>
             </div>
         </section>
+
         <section class="events">
             <div class="slider">
-                <?php include 'index_visualizacion_eventos.php' ?>
+                <?php include 'index_visualizacion_eventos.php'; ?>
             </div>
         </section>
+
         <section class="blog">
             <div class="container_blog">
             <i class="fas fa-angle-left"></i>
@@ -79,12 +82,12 @@
             <i class="fas fa-angle-right"></i>
             </div>
             <div class="container-button">
-                <button class="learn-more">
+                <a href="../Blog/Index_blog.php"><button class="learn-more">
                     <div class="circle">
                         <span class="icon arrow"></span>
                     </div>
                 <p class="button-text">Ver más</p>
-                </button>
+                </button></a>
             </div>
         </section>
         <section class="contact">
