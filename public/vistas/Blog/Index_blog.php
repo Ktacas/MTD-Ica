@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="../../css/main_e.css">
+        <link rel="stylesheet" type="text/css" href="../../css/main_b.css">
     <link rel="stylesheet" href="../../css/normalize.css">
     <title>Container</title>
 </head>
@@ -19,7 +19,7 @@
             <div class="container_header">
                 <!-- logo -->
                 <figure class="logo">
-                    <img src="../images/Blanco800x346.png" alt="logo">
+                    <img src="../../img/Blanco800x346.png" alt="logo">
                 </figure>
                 <!-- nav -->
                 <nav class="menu">
@@ -57,19 +57,21 @@
             <article class="post-preview">
                 <figure class="miniature-preview">
                     <a href="blog.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">
-                        <img src="https://img.youtube.com/vi/<?php echo $row['enlace'];?>/hq2.jpg" alt="">
+                        <!-- <img src="https://img.youtube.com/vi/<?php echo $row['enlace'];?>/hq2.jpg" alt=""> -->
+                        <img src="../../img/blog_post1.jpg" alt="">
                     </a>
                 </figure> 
                 <div class="content-preview">
                     <a href="blog.php?ID_titulo=<?php echo $row['ID_titulo']; ?>"><?php echo $row['categoria']; ?></a>
-                    <h3><?php echo $row['titulo']; ?></h3>
-                    <h4><?php echo $row['fecha']; ?></h4>
+                    <h2><?php echo $row['titulo']; ?></h2>
+                    <!-- <?php echo $row['fecha']; ?> -->
+                    <p>Publicado el&nbsp;<span>07 de Marzo del 2019</span></p>
                     <p class="content-p"><?php echo $row['descripcion']; ?></p>
                     <div class="others-preview">
                         <figure class="perfil-post">
-                            <img src="../images/perfil_core2.jpg" alt="">
+                            <img src="../../img/perfil_core2.jpg" alt="">
                         </figure>
-                        <p class="name-perfil">Nombre Admin</p>
+                        <a class="name-perfil" href="#">Daniela Galindo Maldonado</a>
                         <div class="icon-preview">
                             <i class="far fa-heart"></i>
                             <span class="heart-number">23</span>
@@ -100,25 +102,25 @@
                 <h3>Lo más leido</h3>
                 <article class="blog-post">
                     <figure class="miniature">
-                        <img src="../images/blog_post1.png" alt="">
+                        <img src="../../img/blog_post1.png" alt="">
                     </figure>
                     <p class="content-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                 </article>
                 <article class="blog-post">
                     <figure class="miniature">
-                        <img src="../images/blog_post1.png" alt="">
+                        <img src="../../img/blog_post1.png" alt="">
                     </figure>
                     <p class="content-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                 </article>
                 <article class="blog-post">
                     <figure class="miniature">
-                        <img src="../images/blog_post1.png" alt="">
+                        <img src="../../img/blog_post1.png" alt="">
                     </figure>
                     <p class="content-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                 </article>
                 <article class="blog-post">
                     <figure class="miniature">
-                        <img src="../images/blog_post1.png" alt="">
+                        <img src="../../img/blog_post1.png" alt="">
                     </figure>
                     <p class="content-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                 </article>
@@ -145,7 +147,7 @@
         <footer class="footer">
             <!-- logo -->
             <figure class="logo_footer">
-                    <img src="../images/Blanco800x346.png" alt="logo">
+                    <img src="../../img/Blanco800x346.png" alt="logo">
                 </figure>
                 <div class="info_footer">
                     <p>Design with 💕by 

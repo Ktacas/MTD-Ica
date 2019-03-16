@@ -6,26 +6,30 @@ body {
   /* GRID CONTAINER */
   .container {
       display: grid;
-      grid-template-areas: "header header"
-                           "content aside"
-                           "comment ."
-                           "footer footer";
-      grid-template-columns: 3fr 1fr;
+      grid-template-areas: "false"
+                           "content"
+                           "comment"
+                           "footer";
+      grid-template-columns: 1fr;
       grid-template-rows: 70px 1fr .2fr 50px;
-      grid-gap: 10px;
   }
   /* -------------------------------HEADER------------------------------- */
   .header {
     font-family: 'Raleway', sans-serif;
-    grid-area: header;
     height: 70px; 
     width: 100%;
     position: fixed;
     /* background: rgba(0, 0, 0, .6);   */
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0, .9);
     display: flex;
     justify-content: space-between;
     z-index: 3;
+  }
+  .false {
+    grid-area: false;
+    width: 100%;
+    height: 70px;
+    background: black;
   }
   /* contenedor */
   .container_header {
@@ -111,36 +115,52 @@ body {
   /* -------------------------------CONTENT------------------------------- */
   .content {
     grid-area: content;
-    padding: 60px 50px;
    }
    .title-content {
        margin: 0;
        font-size: 2.6em;
-       width: 700px;
+       width: 100%;
        margin-bottom: 20px;
        font-weight: 600;
+       color: white;
+       /* background: #050505; */
+       background: url(../img/pattern_prueba2.png);
+       height: 360px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding-bottom: 40px;
    }
    .image-content {
-       margin: 0;
-       width: 100%;
-       height: 340px;
+       margin: 0 auto;
+       width: 60%;
+       height: 500px;
+       display: flex;
        overflow: hidden;
+       position: relative;
+       top: -120px;
    }
    .image-content img {
     width: 100%;
     height: auto;
-    object-fit: cover;
   }
   .details-content  {
     display: flex;
     justify-content: space-between;
-    margin: 20px 0 22px 0;
+    margin: 0 100px;
+    position: relative;
+    top: -100px;
   }
-  .details-content h4 {
-    font-weight: 100;
-    margin: 0;
+  .details-content p {
+    font-weight: 400;
     font-size: 1.13em;
+    margin: 0;
+    margin-bottom: 6px;
+    font-family: 'Raleway', sans-serif;
   }
+  .details-content span {
+    color: #0665ff;
+}
   .icon-content {
     display: flex;
     align-items: center;
@@ -154,15 +174,18 @@ body {
   .icon-content i:first-child {
     color: #ED4956;
   }
-  .heart-number {
+  .icon-content .heart-number {
     margin: 0 8px;
+    color: #181C20;
   }
-  .comment-number {
+  .icon-content .comment-number {
     margin: 0 8px;
+    color: #181C20;
   }
   .perfil-content {
     display: flex;
     align-items: center;
+    margin: 0 100px;
   }
   .perfil-content p {
     margin: 0;
@@ -170,6 +193,14 @@ body {
     font-size: 1.13em;
     font-weight: 200;
   }
+  .perfil-content .name-perfil {
+    width: 46%;
+    margin: 0;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+}
   .avatar-content {
     width: 40px;
     height: 38px;
@@ -183,143 +214,23 @@ body {
     height: auto;
     object-fit: cover;  
 }
+  .text-content {
+    margin: 0 100px;
+    margin-bottom: 80px;
+  }
   .text-content p {
     font-size: 1.13em;
-    margin-bottom: 30px;
     line-height: 30px;
     font-family: 'Raleway', sans-serif;
-  }
-  /* -------------------------------SEARCH------------------------------- */
-  .aside {
-    grid-area: aside;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .container-search {
-    margin:30px;
-    margin-bottom: 0px;
-  }
-  .container-search h3 {
-      font-weight: 500;
-      margin-left: 10px;
-      color: #2C333A;
-      font-size: 1.3em;
-  }
-  .container-align {
-      display: flex;
-      align-items: center;
-  }
-  .container-search .search {
-      border-radius: 50px;
-      padding: 6px 10px;
-      border: 1px solid #707070;
-      font-size: 1.2em;
-      font-family: 'Dosis', sans-serif;
-      font-weight: 100;
-      width: 290px;
-  }
-  .container-search form .buscar{
-      border-radius: 50px;
-      background: black;
-      border: 0;
-      padding: 8px 22px;
-      color: azure;
-      font-size: 1.4em;
-      font-family: 'Dosis', sans-serif;
-      margin-left: 10px;
-  }
-  /* -------------------------------ASIDE------------------------------- */
-  .container-aside {
-    margin: 20px 20px 80px 40px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-  }
-  .line-aside {
-    height: 500px; 
-    position: absolute;
-    bottom: 20px;
-    left: -40px;
-    border-left: 2px solid #0078EF;
-  }
-  .container-aside h3 {
-    font-weight: 500;
-      color: #2C333A;
-      font-size: 1.3em;
-  } 
-  .blog-post {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-    height: 100px;
-  }
-  .miniature {
-    margin: 0;
-    width: 100px;
-    height: 100px;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  .miniature img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .content-post {
-    margin: 0;
-    width: 290px;
-    margin-left: 20px;
-    font-size: 1.1em;
-  }
-  
-  /* -------------------------------CATEGORIES------------------------------- */
-  .container-categories {
-    width: 100%;
-    display: flex;
-    position: relative;
-  }
-  .background-categories {
-    background: #181C20;
-    width: 100%;
-    height: 200px;
-    margin-right: 40px;
-    display: grid;
-    align-items: center;
-  }
-  .items-categories {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(3,50px);
-    justify-items: center;
-    align-items: center;
-  }
-  .items-categories a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.3em;
-    font-weight: 200;
-  }
-  .tag-categories {
-    background: #202429;
-    border-radius: 50px;
-    padding: 10px 70px;
-    color: azure;
-    font-weight: 200;
-    font-size: 1.5em;
-    display: flex;
-    justify-content:center;
-    position: absolute;
-    top: -25px;
-    left: 40px;
-    width:80px;
-    margin: auto;
   }
   /* -------------------------------COMMENT------------------------------- */
   .comment {
     grid-area: comment;
     display: flex;
     padding: 0 50px; 
+    margin-bottom: 60px;
+    margin-left: 10px;
+    width: 60%;
   }
   .container-comment {
     background: #181C20;

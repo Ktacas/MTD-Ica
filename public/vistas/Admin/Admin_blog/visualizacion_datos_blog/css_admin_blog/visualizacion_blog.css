@@ -1,51 +1,221 @@
-.admin_blog_container h1{
-    width: 100px;
-    height: auto;
-    padding: 10px;
-    background-color: red;
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;  
 }
 
-.admin_blog_container #btn_nuevo{
+/* -------------------------------HEADER------------------------------- */
+.header {
+    font-family: 'Raleway', sans-serif;
+    grid-area: header;
+    height: 70px; 
+    width: 100%;
+    position: fixed;
+    /* background: rgba(0, 0, 0, .6);   */
+    background: rgba(0, 0, 0, .8);
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+  }
+  /* contenedor */
+  .container_header {
+  display: inherit;
+  justify-content: inherit;
+  height: inherit;
+  align-items: center;
+  margin: 0 auto;
+  
+  flex: 1;
+  }
+  /* logo */
+  .logo {
+  margin: 0;
+  margin-left: 55px;
+  display: inherit;
+  align-items: center;
+  }
+  /* imagen-logo */
+  .logo img {
+  width: auto;
+  height: 50px;
+  }
+  /* nav */
+  .menu {
+  height: inherit;
+  }
+  /* contedor-items */
+  .menu ul {
+  font-size: 1.2em;
+  margin: 0px;
+  margin-right: 55px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  height: inherit;
+  }
+  /* items */
+  .menu li {
+  margin: 0;
+  height: inherit;
+  }
+  /* enlaces-items */
+  .menu a {
+  text-decoration: none;
+  color: azure;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  transition: .6s;
+  padding: 0 12.5px;
+  }
+  /* ultimo-item */
+  .menu li:last-child {
+    display: flex;
+    align-items: center;
+    margin-left: 12.5px;
+  }
+  .menu .button-link {
+  border: 2px solid rgb(255, 255, 255);
+  height: 19px;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: auto;
+  transition: .6s;
+  }
+  .button-link a{
+    color: azure;
+    }
+  .button-link:hover {
+  background: rgba(255, 255, 255, .8);
+  border-color: rgba(255, 255, 255, .8);
+  cursor: pointer;
+  color: black;
+  }
+  
+  .cool-link:hover {
+  transition: .6s;
+  background: rgba(255, 255, 255, .8);
+  color: black;
+  }
+
+/* -------------------------------TABLE------------------------------- */
+.admin_blog_container {
+    padding: 100px 0;
+}
+.button-new {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.button-new a {
     text-decoration: none;
-    color: white;
     width: 100px;
-    height: auto;
-    padding: 10px;
-    margin: 10px;
-    background-color:rgb(51, 47, 47);
-    float: right;
-    border-style: solid;
-    border-color: brown;
-    border-radius: 20%;
+    background: #828d9a;
+    border: 1px solid #6a737e;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 0px;
+    margin-right: 135px;
+    text-align: center;
 }
-
+form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#adminB_section_tabla{
+    width: 80%;
+}
+table .num {
+    background:#001127d3;
+    color: white;
+    width: 30px;
+}
+table .title {
+    background:#001127c7;
+    color: white;
+    height: 40px;
+}
+table .sections {
+    background:#e2e2e2c7;
+    height: 30px;
+    color: #001127e8;
+}
+table .content {
+    height: 50px;
+}
+.image {
+    width: 120px;
+    height: auto;
+    margin: auto;
+}
+.image img {
+    width: 100%;
+    height: auto;
+}
+.content p {
+    text-align: center;
+}
+input[type="button"] {
+    border: 1px solid #E20749;
+    background: #E20749;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin: 0 auto;
+    display: flex;
+}
+table .buttons {
+    height: 40px;
+}
 .admin_blog_container #btn_editar,#btn_eliminar{
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    width: 30px;
-    height: auto;
-    padding: 1px;
-    margin: 1px;
-    background-color:rgb(148, 137, 137);
-    border-style: solid;
-    border-color: rgb(116, 111, 111);
-    border-radius: 10%;
+    background: #178CAF;
+    border: 1px solid #178CAF;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 0px;
+    margin: auto;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+}
+#btn_eliminar {
+    background: #384556;
+    border: 1px solid #384556;
 }
 
-#adminB_section_tabla{
-    width: 90%;
-    height: auto;
-    padding: 10px;
-    position: absolute;
-    left: 50%;
-    margin-left: -45%;
-}
+
+
+
+
+
+
+
+
 
 #adminB_section_tabla table{
     width: 100%;
 }
 
 #adminB_section_tabla table, th, td{
-    border: 1px solid black;
+
     border-collapse: collapse;
   }
+#adminB_section_tabla th{
+
+}
+#adminB_section_tabla td{
+    background: rgb(247, 247, 247);
+}
+
+

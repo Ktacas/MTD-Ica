@@ -3,46 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="../visualizacion_datos_blog/css_admin_blog/index.css">
-
-    <style>
-        #admin_blog_container a{
-            text-decoration: none;
-            color: rgb(0, 0, 0);
-            width: 30px;
-            height: auto;
-            padding: 1px;
-            margin: 1px;
-            background-color:rgb(148, 137, 137);
-            border-style: solid;
-            border-color: rgb(116, 111, 111);
-            border-radius: 10%;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../../css/normalize.css">
+    <link rel="stylesheet" href="../../../../css/main_crear.css">
 </head>
-
 <body>
-<div id="admin_blog_container">
-    
+<header class="header">
+        <!-- contenedor -->
+        <div class="container_header">
+                <!-- logo -->
+                <figure class="logo">
+                    <img src="../../../../img/Blanco800x346.png" alt="logo">
+                </figure>
+                <!-- nav -->
+                <nav class="menu">
+                    <ul>
+                        <li><a class="cool-link" href="../../principal/index.php">Inicio</a></li>
+                        <li><a class="cool-link" href="../../Core/Index_core.php">Core</a></li>
+                        <li><a class="cool-link" href="../../Eventos/Index_eventos.php">Eventos</a></li>
+                        <li><a class="cool-link" href="../../Blog/Index_blog.php">Blogs</a></li>
+                        <li><a class="button-link" href="#">Se miembro</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>    
+<div id="admin_blog_container"> 
     <form action="guardar_blog.php" name="formenviar" id="formenviar" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
-        <label>Titulo: <input type="text" REQUIRED name="titulo" placeholder="pon el titulo"></label> <br><br>
-        <label>Fecha: <input type="date" REQUIRED name="fecha"></label> <br><br>
-        <label>Imagen: <input type="file" REQUIRED name="imagen"></label><br><br>
-        <label>Enlace: <input type="text" REQUIRED name="enlace" placeholder="pon el id del enlace"></label> <br><br>
-        <label>Categoria: <select name="categoria"><option>C#</option><option>Xamarin</option><option>MTDeveloper</option></select> <br><br>
-        <label>Descripcion: <textarea REQUIRED name="descripcion" rows="5" cols="40" placeholder="pon la descripcion aqui" maxlength="140"></textarea></label><br><br>
-        
-        <input type="submit" value="enviar" name="enviar">
-
-        <a href="../visualizacion_datos_blog/visualizar_blog.php">Carcelar</a><br>
-
-        <label>Contenido: <textarea REQUIRED name="contenido" rows="25" cols="100" placeholder="Coloca el contenido" maxlength="1100"x></textarea></label><br><br>
+        <label>Titulo: <input type="text" REQUIRED name="titulo" placeholder="Escribe el título"></label> 
+        <label>Fecha: <input type="date" REQUIRED name="fecha"></label> 
+        <label>Imagen: <input type="file" REQUIRED name="imagen"></label>
+        <label>Enlace: <input type="text" REQUIRED name="enlace" placeholder="Introduce el ID"></label> 
+        <label>Categoria: <select name="categoria"><option>C#</option><option>Xamarin</option><option>MTDeveloper</option></select></label> 
+        <div class="description">
+        <label class="description" >Descripcion: </label>
+            <textarea REQUIRED name="descripcion" rows="5" cols="40" placeholder="Descripción aqui" maxlength="140"></textarea> 
+        </div>
+        <div class="container">
+            <input type="submit" value="enviar" name="enviar">
+            <a href="../visualizacion_datos_blog/visualizar_blog.php">Carcelar</a>
+        </div>
+        <div class="container_content">
+            <label>Contenido:</label>
+            <textarea REQUIRED name="contenido" rows="25" cols="100" placeholder="Coloca el contenido" maxlength="1100"x></textarea>
+        </div>
     </form>
-<br>
-    
-
-
 </div>
-
 </body>
 </html> 

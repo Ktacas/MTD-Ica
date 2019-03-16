@@ -22,7 +22,7 @@ body {
   width: 100%;
   position: fixed;
   /* background: rgba(0, 0, 0, .6);   */
-  background: rgba(0, 0, 0, .8);
+  background: rgba(0, 0, 0, .9);
   display: flex;
   justify-content: space-between;
   z-index: 3;
@@ -120,14 +120,14 @@ color: black;
  .post-preview {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 30px 20px 40px; 
+  margin: 0 30px 0 40px; 
   align-items: center;
 }
 .miniature-preview {
   margin: 0;
-  margin-right: 30px;
+  margin-right: 25px;
   width: 40%;
-  height: 197px;
+  height: auto;
   display: inherit;
   align-items: center;
 }
@@ -148,19 +148,29 @@ color: black;
   color: rgb(0, 89, 255);
   font-size: 1.4em;
 }
-.content-preview h3 {
+.content-preview h2 {
   margin: 0;
+  color: #000000a1;
+  font-family: 'Dosis', sans-serif;
   margin-bottom: 8px;
-  font-weight: 500;
+  font-size: 1.2em;
+  font-weight: 600;
 }
-.content-preview h4 {
+.content-preview p {
   margin: 0;
   margin-bottom: 6px;
-  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
+  font-size: .9em;
 }
-.content-p {
+.content-preview span {
+  color: #0665ff;
+}
+.content-preview .content-p {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: .9em;
+  color: #48484a;
 }
 .others-preview {
   display: flex;
@@ -170,7 +180,7 @@ color: black;
   width: 50px;
   height: 50px;
   margin: 0;
-  margin-right: 20px;
+  margin-right: 10px;
   border-radius: 50px;
   overflow: hidden;
 }
@@ -178,11 +188,14 @@ color: black;
   width: 100%;
   height: auto;
   object-fit: cover;
-  
 }
-.name-perfil {
+.others-preview .name-perfil {
   width: 46%;
   margin: 0;
+  text-decoration: none;
+  color: #000000f3;
+  font-size: .9em;
+  font-family: 'Raleway', sans-serif;
 }
 .icon-preview {
   width: 30%;
@@ -190,11 +203,13 @@ color: black;
 .icon-preview i{
   margin-left: 10px;
 }
-.heart-number {
+.icon-preview .heart-number {
+  color: #202429;
   margin: 0 4px;
 }
-.comment-number {
+.icon-preview .comment-number {
   margin: 0 4px;
+  color: #202429;
 }
 /* -------------------------------SEARCH------------------------------- */
 .aside {
@@ -365,7 +380,7 @@ color: black;
 }
 /* -------------------------------FOOTER------------------------------- */
 .footer {
-  background: rgb(0, 0, 0);
+  background: url(../img/footer.png);
   color: white;
   font-family: 'Raleway', sans-serif;
   height: 70px;
@@ -390,11 +405,10 @@ align-items: center;
   align-items: center;
 }
 .info_footer p {
-margin: 0;
-margin-right: 55px;
-font-weight: 200;
-font-style: italic;
-font-size: 1.2em;
+  margin: 0;
+  margin-right: 55px;
+  font-weight: 200;
+  font-size: 1.13em;
 }
 .info_footer a {
 text-decoration: none;

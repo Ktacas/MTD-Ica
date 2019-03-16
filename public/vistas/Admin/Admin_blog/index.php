@@ -33,8 +33,14 @@
             </div>
     </header>
     <div class="container">
-        <a href="enviar_datos_blog/admin_blog_crear.php">crear blog</a>
-        <a href="visualizacion_datos_blog/visualizar_blog.php">visualizar blog</a>
+        <figure class="perfil-img">
+            <img src="../../../img/perfil_core2.jpg" alt="">
+        </figure>
+        <h1>Bienvenida <span>Daniela Galindo</span></h1>
+        <div class="links">
+            <a href="enviar_datos_blog/admin_blog_crear.php">Crear blog</a>
+            <a href="visualizacion_datos_blog/visualizar_blog.php">Visualizar blog</a>
+        </div>
     </div>
 </body>
 </html>
