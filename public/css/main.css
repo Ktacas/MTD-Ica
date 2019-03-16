@@ -205,7 +205,9 @@ body .content a {
     padding-top: 50px;
 }
 .container_core {
-  background: #181619;
+  background: url(../../public/img/trianglify2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100%;
   margin: auto;
@@ -218,34 +220,11 @@ body .content a {
             grid-template-columns: 10% auto auto 10%;
             grid-template-rows: 60px 60px 160px auto 40px;
             grid-gap: 0 60px;
-            grid-template-areas: "left . . right"
-                                 "left image_core title_core right"
-                                 "left image_core description_core right"
-                                 "left . bottom_core right"
-                                 "left . . right";  
-}
-.left {
-  width: 100%;
-  background: #131115;
-  grid-area: left;
-}
-.right {
-  width: 100%;
-  grid-area: right;
-}
-.rectangle-bottom {
-    width: 0;
-     height: 0;
-     border-left: 135px solid #428bca;
-     border-top: 185px solid #11387D;
-     border-bottom: 185px solid #195593;
-}
-.rectangle-bottom:hover {
-   width: 0;
-   height: 0;
-   border-left: 135px solid #5497d1;
-   border-top: 185px solid #11387D;
-   border-bottom: 185px solid #195593;
+            grid-template-areas: ". . . ."
+                                 ". image_core title_core ."
+                                 ". image_core description_core ."
+                                 ". . bottom_core ."
+                                 ". . . .";  
 }
 .image_core {
   margin: 0;
@@ -458,7 +437,7 @@ body .content a {
 }
 .container_blog {
   /* background: #671998; */
-  background: url(../images/pattern.png);
+  background: url(../img/pattern.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -489,7 +468,7 @@ body .content a {
   grid-template-rows: 160px auto 50px;
   grid-gap: 0px;
   /* background:#731caa; */
-  background: url(../images/pattern.png);
+  background: url(../img/pattern.png);
   background-repeat: no-repeat;
   background-size: cover;
   /* background: url(../images/pattern.png); */
@@ -705,9 +684,10 @@ button:hover .button-text {
 .bottom {
   width: 100%;
   height: 100%;
-  background: url(../images/pattern3.png);
+  background: url(../img/pattern3.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: -200px;
   padding-top: 70px;
 }
 .container-flex {
@@ -735,7 +715,7 @@ button:hover .button-text {
    padding-left: 70px;
    font-size: 2em;
    font-family: 'Dosis', sans-serif;
-   background: url(../images/user-solid.svg);
+   background: url(../img/user-solid.svg);
    background-repeat: no-repeat;
    background-position-y: center;
    background-position-x: 20px;
@@ -751,7 +731,7 @@ button:hover .button-text {
   padding-left: 70px;
   font-size: 2em;
   font-family: 'Dosis', sans-serif;
-  background: url(../images/envelope-solid.svg);
+  background: url(../img/envelope-solid.svg);
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 20px;
@@ -882,7 +862,7 @@ button:hover .button-text {
 /* -------------------------------FOOTER------------------------------- */
 .footer {
     /* background: rgb(0, 0, 0); */
-    background: url(../images/footer.png);
+    background: url(../img/footer.png);
     height: 70px;
     width: 100%;
     display: flex;
