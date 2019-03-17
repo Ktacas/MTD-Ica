@@ -132,7 +132,7 @@ form {
     margin-top: 30px;
 }
 #adminB_section_tabla{
-    width: 80%;
+    width: 85%;
 }
 table .num {
     background:#001127d3;
@@ -149,13 +149,11 @@ table .sections {
     height: 30px;
     color: #001127e8;
 }
-table .content {
-    height: 50px;
-}
 .image {
     width: 120px;
-    height: auto;
-    margin: auto;
+    height: 60px;
+    margin: 20px 15px;
+    overflow: hidden;
 }
 .image img {
     width: 100%;
@@ -163,19 +161,22 @@ table .content {
 }
 .content p {
     text-align: center;
+    width: 600px;
+    margin: 10px auto;
+    text-overflow:ellipsis;
+    white-space:nowrap; 
+    overflow:hidden; 
 }
-input[type="button"] {
+#btn_editar1 {
     border: 1px solid #E20749;
+    text-decoration: none;
     background: #E20749;
-    outline: none;
     color: white;
     border-radius: 5px;
     padding: 5px 30px;
-    margin: 0 auto;
+    margin: 0 80px;
     display: flex;
-}
-table .buttons {
-    height: 40px;
+    justify-content: center;
 }
 .admin_blog_container #btn_editar,#btn_eliminar{
     text-decoration: none;
@@ -194,6 +195,15 @@ table .buttons {
     border: 1px solid #384556;
 }
 
+
+
+
+
+
+
+
+
+
 #adminB_section_tabla table{
     width: 100%;
 }
@@ -208,3 +218,5 @@ table .buttons {
 #adminB_section_tabla td{
     background: rgb(247, 247, 247);
 }
+
+

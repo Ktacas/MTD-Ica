@@ -11,7 +11,7 @@ body {
                          "comment"
                          "footer";
     grid-template-columns: 1fr;
-    grid-template-rows: 560px 300px 580px 260px auto 50px;
+    grid-template-rows: 680px auto 580px 260px auto 50px;
 }
 .footer {
     grid-area: footer;
@@ -26,7 +26,7 @@ body {
     width: 100%;
     position: fixed;
     /* background: rgba(0, 0, 0, .6);   */
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0, .9);
     display: flex;
     justify-content: space-between;
     z-index: 3;
@@ -118,32 +118,44 @@ body {
     }
   .container-hero {
       display: grid;
-      grid-template-columns: 1fr 1.2fr;
+      grid-template-columns: 1fr;
       grid-template-rows:70px auto;
-      grid-gap: 40px 0px;
-  }
-  .black {
-    width: 100%;
-    height: 70px;
-    background: black;
+      position: relative;
   }
   .image-hero {
-      margin: 0 30px;
+      margin: 0;
+      width: 100%;
+      height: 550px;
+      overflow: hidden;
   }
   .image-hero img {
       width: 100%;
-      height: 380px;
+      height: 100%;
+      object-fit: cover;
+  }
+  .content-hero {
+    position: absolute;
+    top:0;
+    color: white;
+    background: rgba(0, 0, 0, 0.74);
+    margin-top: 70px;
+    width: 500px;
+    height: 550px;
+    padding: 50px 40px;
+    box-sizing: border-box;
   }
   .content-hero h2 {
-    font-size: 4em;
+    font-size: 3.6em;
     font-weight: 300;
     margin: 0 0 20px;
+    text-align: center;
   }
   .content-hero h3 {
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 300;
     font-family: 'Raleway', sans-serif;
     margin: 30px 0;
+    text-align: center;
   }
   .icon-calendar {
     display: flex;
@@ -173,6 +185,23 @@ body {
   .icon-clock i {
     font-size: 2em;
   }
+  .content-hero a{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: #f91f32;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+    margin: 40px 70px;
+    animation-duration: 1.2s;
+  }
+  .content-hero a:hover {
+    background: #e20417;
+  }
  
 /* -------------------------------DESCRIPTION------------------------------- */
 .description {
@@ -182,23 +211,22 @@ body {
 .container-description {
   width: 100%;
   height: 100%;
-  background:#181C20;
-  padding: 50px 100px;
   position: relative;
   box-sizing: border-box;
 }
 .tag-description {
-  background: #202429;
-  border-radius: 50px;
+  background: rgb(33, 38, 47);
+  border-radius: 30px;
+  border: 3px solid white;
   padding: 10px 40px;
   color: #fff;
   font-weight: 200;
-  font-size: 2em;
+  font-size: 1.8em;
   display: flex;
   justify-content:center;
   position: absolute;
   top: -25px;
-  left: 40px;
+  left: 60px;
   width:200px;
   margin: auto;
 }
@@ -207,11 +235,13 @@ body {
   height: 100%;
   color: white;
   font-size: 1.6em;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 50px;
 }
 .content-description p {
   margin: 0;
+  background: #29303B;
+  padding: 60px 100px;
 }
 
 /* -------------------------------UBICATION------------------------------- */
@@ -229,9 +259,9 @@ body {
   margin-bottom: 40px;
 }
 .site-ubication i {
-  font-size: 1.8em;
+  font-size: 2.6em;
   margin-right: 20px;
-  color: #2076df;
+  color: #2779f9;
 }
 .site-ubication p {
   margin: 0;
@@ -257,7 +287,9 @@ body {
   font-weight: 300;
 }
 .container-share {
-  background: #202429;
+  background: url(../img/pattern.png);
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   display: flex;
   justify-content: center;
   font-size: 4em;
@@ -273,7 +305,7 @@ body {
   padding: 0 50px; 
 }
 .container-comment {
-  background: #181C20;
+  background: #29303B;
   border-radius: 20px;
   display: inherit;
   justify-content:center;
@@ -284,7 +316,7 @@ body {
   margin: 40px 0;
 }
 .tag-comment {
-  background: #202429;
+  background: #29303B;
   border-radius: 50px;
   padding: 10px 70px;
   color: azure;

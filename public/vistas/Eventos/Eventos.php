@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,14 +55,19 @@
                 <div class="content-hero">
                     <h2><?php echo $row['Titulo']; ?></h2>
                     <h3><?php echo $row['Subtitulo']; ?></h3>
-                    <div class="icon-calendar">
-                        <i class="far fa-calendar-alt"></i>
-                        <p><?php echo $row['Fecha']; ?></p>
+                    <div class="icons">
+                        <div class="icon-calendar">
+                            <i class="far fa-calendar-alt"></i>
+                            <p>
+                                12 de Marzo del 2019
+                            </p>
+                        </div>
+                        <div class="icon-clock">
+                            <i class="far fa-clock"></i>
+                            <p><?php echo $row['Hora']; ?></p>
+                        </div>
                     </div>
-                    <div class="icon-clock">
-                        <i class="far fa-clock"></i>
-                        <p><?php echo $row['Hora']; ?></p>
-                    </div>
+                    <a href="#">Registrate</a>
                 </div>
             </div>
         </section>

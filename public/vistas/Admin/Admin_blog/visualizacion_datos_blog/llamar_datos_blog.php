@@ -32,7 +32,7 @@
                         <p name="descripcion" id="descripcion"><?php echo $row['descripcion']; ?></p>
                     </td>
                     <td colspan="2" class="container-button">
-                        <a id="btn_editar" name="AB_visualizar" href="../../../Blog/blog.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">Visualizar</a>
+                        <a id="btn_editar1" name="AB_visualizar" href="../../../Blog/blog.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">Visualizar</a>
                     </td>
                 </tr>
     

@@ -31,9 +31,11 @@
         </header> 
 
         <div class="admin_blog_container">
-            <form>        
+            <div class="button-new">
+                <a href="../enviar_datos_eventos/admin_eventos_crear.php">Nuevo</a>
+            </div> 
+            <form>       
                 <div id="adminB_section_tabla">
-                    <a id="btn_nuevo" href="../enviar_datos_eventos/admin_eventos_crear.php">Nuevo</a>
                     <?php include 'llamar_datos_eventos.php'; ?>
                 </div>
             </form>
