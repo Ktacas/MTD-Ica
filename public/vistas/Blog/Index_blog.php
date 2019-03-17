@@ -58,7 +58,7 @@
                 <figure class="miniature-preview">
                     <a href="blog.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">
                         
-                        <img src="https://img.youtube.com/vi/<?php echo $row['enlace'];?>/mqdefault.jpg" alt="">
+                        <img src="https://img.youtube.com/vi/<?php echo $row['enlace'];?>/maxresdefault.jpg" alt="">
                     </a>
                 </figure> 
                 <div class="content-preview">

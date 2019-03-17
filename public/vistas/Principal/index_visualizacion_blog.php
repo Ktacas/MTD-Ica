@@ -9,8 +9,8 @@
 ?>
     <article class="box_blog">
         <figure class="image_box">
-            <!-- <img src="https://img.youtube.com/vi/<?php echo $row['enlace'];?>/hq2.jpg" alt=""> -->
-            <img src="../../img/blog_post1.jpg" alt="">
+            <img src="https://img.youtube.com/vi/<?php echo $row['enlace'];?>/maxresdefault.jpg" alt="">
+            
         </figure>
         <div class="detail_box">
         <h2><a class="link-box" href="../Blog/blog.php?ID_titulo=<?php echo $row['ID_titulo']; ?>"><?php echo $row['titulo']; ?></a></h2>
