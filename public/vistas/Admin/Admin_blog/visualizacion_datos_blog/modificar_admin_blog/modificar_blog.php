@@ -76,7 +76,7 @@
 
         <div class="container_content">
             <label>Contenido:</label>
-            <textarea REQUIRED name="contenido" rows="25" cols="100" placeholder="Coloca el contenido" maxlength="1100"x></textarea>
+            <textarea REQUIRED name="contenido" rows="25" cols="100" placeholder="Coloca el contenido" maxlength="1100"x><?php echo $row['contenido']; ?></textarea>
         </div>
     </form>
 <br>
