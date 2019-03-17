@@ -27,7 +27,7 @@
                             <li><a class="button-link" href="#">Se miembro</a></li>
                         </ul>
                     </nav>
-                </div>
+            </div>
         </header> 
         <div class="admin_blog_container">
             <div class="button-new">

@@ -29,8 +29,8 @@
                     <td rowspan="2">
                         <p name="descripcion" id="descripcion"><?php echo $row['Descripcion']; ?></p>
                     </td>
-                    <td colspan="2">
-                        <input type="button" value="visualizar" id="adminE_button" name="AE_visualizar" >
+                    <td colspan="2" class="container-button">
+                        <a id="btn_editar" name="AB_visualizar" href="../../../Eventos/eventos.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">Visualizar</a>
                     </td>
                 </tr>
     
