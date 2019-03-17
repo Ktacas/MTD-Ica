@@ -72,7 +72,6 @@
                 <div class="tag-description">Descripción</div>
                 <article class="content-description">
                     <p> <?php echo $row['Descripcion']; ?></p>
-                    <p><?php echo $row['Descripcion']; ?></p>
                 </article>
             </div>
         </section>
@@ -81,9 +80,7 @@
                 <div class="site-ubication"><i class="fas fa-map-marker-alt"></i>
                     <p><?php echo $row['Lugar']; ?></p>
                 </div>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.047138589249!2d-75.74188158558547!3d-14.07439378674965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2ec5f515db5%3A0x6fabc73b25a5aa2e!2sEl+Quinde+Shopping+Plaza+Ica!5e0!3m2!1ses!2spe!4v1551626483533"
-                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <?php echo $row['Enlace']?>
             </div>
         </section>
         <section class="share">
