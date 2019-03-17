@@ -47,8 +47,7 @@
         <section class="content">
             <h2 class="title-content"><?php echo $row['titulo']; ?></h2>
             <figure class="image-content">
-                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo $row['enlace'];?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                    <img src="../../img/blog_post1.jpg" alt="">
+                <iframe width="1060" height="500" src="https://www.youtube.com/embed/<?php echo $row['enlace'];?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </figure>
             <div class="details-content">
                 <!-- <h4><?php echo $row['fecha']; ?></h4> -->

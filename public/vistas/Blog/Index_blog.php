@@ -37,7 +37,7 @@
             <?php
             include '../Admin/Admin_blog/conexion_db_blog.php';
             
-            $por_pagina=6;
+            $por_pagina=4;
             
             if(isset($_GET['pagina'])){
                 $pagina=$_GET['pagina'];
@@ -64,8 +64,7 @@
                 <div class="content-preview">
                     <a href="blog.php?ID_titulo=<?php echo $row['ID_titulo']; ?>"><?php echo $row['categoria']; ?></a>
                     <h2><?php echo $row['titulo']; ?></h2>
-                    <!-- <?php echo $row['fecha']; ?> -->
-                    <p>Publicado el&nbsp;<span>07 de Marzo del 2019</span></p>
+                    <p>Publicado el&nbsp;<span><?php echo $row['fecha']; ?></span></p>
                     <p class="content-p"><?php echo $row['descripcion']; ?></p>
                     <div class="others-preview">
                         <figure class="perfil-post">

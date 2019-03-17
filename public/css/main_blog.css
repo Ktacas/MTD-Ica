@@ -140,7 +140,7 @@ body {
        position: relative;
        top: -120px;
    }
-   .image-content img {
+   .image-content iframe {
     width: 100%;
     height: auto;
   }
