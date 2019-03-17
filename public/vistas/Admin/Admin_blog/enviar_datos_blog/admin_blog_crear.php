@@ -35,7 +35,7 @@
         <label>Titulo: <input type="text" REQUIRED name="titulo" placeholder="Escribe el título"></label> 
         <label>Fecha: <input type="date" REQUIRED name="fecha"></label> 
         <label>Enlace: <input type="text" REQUIRED name="enlace" placeholder="Introduce el ID"></label> 
-        <label>Categoria: <select name="categoria"><option>C#</option><option>Xamarin</option><option>MTDeveloper</option></select></label> 
+        <label>Categoria: <select name="categoria"><option>Office 365</option><option>Xamarin</option><option>Azure</option></select></label> 
         <div class="description">
         <label class="description" >Descripcion: </label>
             <textarea REQUIRED name="descripcion" rows="5" cols="40" placeholder="Descripción aqui" maxlength="140"></textarea> 

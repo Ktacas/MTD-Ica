@@ -55,14 +55,14 @@
         
         <label>Categoria: <select name="categoria">
             <?php 
-                if( $row['categoria'] == $valor='C#'){?> 
-                    <option selected>C#</option><option>Xamarin</option><option>MTDeveloper</option> 
+                if( $row['categoria'] == $valor='Office 365'){?> 
+                    <option selected>Office 365</option><option>Xamarin</option><option>Azure</option> 
             <?php }
                 if( $row['categoria'] == $valor='Xamarin'){?> 
-                    <option>C#</option><option selected>Xamarin</option><option>MTDeveloper</option>
+                    <option>Office 365</option><option selected>Xamarin</option><option>Azure</option>
             <?php }
-                if( $row['categoria'] == $valor='MTDeveloper'){?> 
-                    <option>C#</option><option>Xamarin</option><option selected>MTDeveloper</option>
+                if( $row['categoria'] == $valor='Azure'){?> 
+                    <option>Office 365</option><option>Xamarin</option><option selected>Azure</option>
             <?php }
             ?>
             </select> <br>
