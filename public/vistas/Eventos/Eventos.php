@@ -21,7 +21,7 @@
             <div class="container_header">
                 <!-- logo -->
                 <figure class="logo">
-                    <img src="../images/Blanco800x346.png" alt="logo">
+                    <img src="../../img/Blanco800x346.png" alt="logo">
                 </figure>
                 <!-- nav -->
                 <nav class="menu">
@@ -51,7 +51,7 @@
                 <div class="black"></div>
                 <div class="black"></div>
                 <figure class="image-hero">
-                    <img src="../images/eventos_principal1.png" alt="">
+                    <img src="../../img/eventos_principal1.png" alt="">
                 </figure>
                 <div class="content-hero">
                     <h2><?php echo $row['Titulo']; ?></h2>
@@ -106,7 +106,7 @@
         <footer class="footer">
             <!-- logo -->
             <figure class="logo_footer">
-                <img src="../images/Blanco800x346.png" alt="logo">
+                <img src="../../img/Blanco800x346.png" alt="logo">
             </figure>
             <div class="info_footer">
                 <p>Design with 💕by

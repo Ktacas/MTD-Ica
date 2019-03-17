@@ -17,7 +17,7 @@
                 <a class="bottom_events" href="../Eventos/Eventos.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">Más info</a>
                 <div class="line_events"></div>
                 <figure class="image_events">
-                    <img src="../images/eventos_principal1.png" alt="">
+                    <img src="../../img/eventos_principal1.png" alt="">
                 </figure>
             </div>
         </div>
