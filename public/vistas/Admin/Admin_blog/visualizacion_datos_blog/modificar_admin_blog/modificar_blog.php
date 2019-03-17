@@ -40,9 +40,9 @@
         
         <label>Fecha: <input type="date" REQUIRED name="fecha" value="<?php echo $row['fecha']; ?>"></label> <br><br>
         
-        <img src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']); ?>" width="100" heigth="100" name="imagen" id="imagen">
+        <img src="https://img.youtube.com/vi/<?php echo $row['enlace'];?>/mqdefault.jpg" width="100" heigth="100" name="imagen" id="imagen">
         
-        <label>Imagen: <input type="file" REQUIRED name="imagen"></label><br><br>
+
         
         <label>Categoria: <select name="categoria">
             <?php 

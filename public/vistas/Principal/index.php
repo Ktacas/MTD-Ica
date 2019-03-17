@@ -98,19 +98,15 @@
                         <div class="bubble"></div>
                         <div class="bubble"></div>
                         <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
-                        <div class="bubble"></div>
+                        <div class="bubb
                         <div class="bubble"></div>
                     </div>
                     <h2 class="title_bottom">¿Quieres ser parte de nuestro equipo?</h2>
                     <div class="container-flex">
-                    <form action="" method="post">
-                        <input class="text_bottom" type="text" placeholder="Nombre completo">
-                        <input class="email_bottom" type="email" name="" id="" placeholder="Déjanos tu email">
-                        <input type="button" value="Enviar" class="button_bottom">
+                    <form action="enviar.php" method="post">
+                        <input for="names" class="text_bottom" type="text" placeholder="Nombre completo" id="name" name="nombre" required>
+                        <input for="email" class="email_bottom" type="text" id="email" name="correo" placeholder="Déjanos tu email"  required>
+                        <input type="submit" value="Enviar" class="button_bottom" id="btnEnviar" >
                     </form>
                     <div class="social_bottom">
                         <a href="#" class="social_link">

@@ -1,7 +1,6 @@
 <?php
     include '../conexion_db_blog.php';
 
-    $imagen=addslashes(file_get_contents($_FILES['imagen']['tmp_name']));
     $fecha=$_POST['fecha'];
     $titulo=$_POST['titulo'];
     $categoria=$_POST['categoria'];
@@ -10,8 +9,8 @@
     $enlace=$_POST['enlace'];
 
     if(isset($_REQUEST['enviar'])){
-        $query="INSERT INTO dtBlog(titulo, imagen, fecha, categoria, descripcion, contenido, enlace) 
-                    VALUES('$titulo','$imagen', '$fecha', '$categoria', '$descripcion', '$contenido', '$enlace')";
+        $query="INSERT INTO dtBlog(titulo, fecha, categoria, descripcion, contenido, enlace) 
+                    VALUES('$titulo', '$fecha', '$categoria', '$descripcion', '$contenido', '$enlace')";
         
         $resultado= $conexion ->query($query);
     

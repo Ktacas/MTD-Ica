@@ -34,7 +34,6 @@
     <form action="guardar_blog.php" name="formenviar" id="formenviar" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
         <label>Titulo: <input type="text" REQUIRED name="titulo" placeholder="Escribe el título"></label> 
         <label>Fecha: <input type="date" REQUIRED name="fecha"></label> 
-        <label>Imagen: <input type="file" REQUIRED name="imagen"></label>
         <label>Enlace: <input type="text" REQUIRED name="enlace" placeholder="Introduce el ID"></label> 
         <label>Categoria: <select name="categoria"><option>C#</option><option>Xamarin</option><option>MTDeveloper</option></select></label> 
         <div class="description">

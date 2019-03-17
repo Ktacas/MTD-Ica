@@ -25,14 +25,14 @@
                 <tr class="content">
                     <td rowspan="2">
                         <figure class="image">
-                            <img src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']); ?>" width="100" heigth="100" name="imagenv" id="imagenv">
+                            <img src="https://img.youtube.com/vi/<?php echo $row['enlace'];?>/mqdefault.jpg" width="100" heigth="100" name="imagenv" id="imagenv">
                         </figure>
                     </td>
                     <td rowspan="2">
                         <p name="descripcion" id="descripcion"><?php echo $row['descripcion']; ?></p>
                     </td>
                     <td colspan="2" class="container-button">
-                        <input type="button" value="visualizar" id="adminB_button" name="AB_visualizar" >
+                        <a id="btn_editar" name="AB_visualizar" href="../../../Blog/blog.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">Visualizar</a>
                     </td>
                 </tr>
     
