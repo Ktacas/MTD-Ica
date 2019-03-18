@@ -50,7 +50,7 @@
                 <div class="black"></div>
                 <div class="black"></div>
                 <figure class="image-hero">
-                    <img src="../../img/eventos_principal1.png" alt="">
+                <img src="data:image/jpg;base64,<?php echo base64_encode($row['Imagen']); ?>" alt="">
                 </figure>
                 <div class="content-hero">
                     <h2><?php echo $row['Titulo']; ?></h2>
