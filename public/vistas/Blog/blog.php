@@ -59,6 +59,7 @@
                     <span class="comment-number">12</span>
                 </div>
             </div>
+            <div class="line"></div>
             <div class="perfil-content">
                 <figure class="avatar-content">
                 <img src="../../img/perfil_core2.jpg" alt="">

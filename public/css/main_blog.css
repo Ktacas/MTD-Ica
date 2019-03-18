@@ -182,6 +182,16 @@ body {
     margin: 0 8px;
     color: #181C20;
   }
+  .line {
+    width: 85%;
+    height: 1px;
+    border-top: 1px solid #929292;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+  }
   .perfil-content {
     display: flex;
     align-items: center;

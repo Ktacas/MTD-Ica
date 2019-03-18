@@ -7,8 +7,6 @@ body {
     display: grid;
     grid-template-areas:  "hero"
                           "miniature"
-                          "miniature"
-                          "miniature"
                           "footer";
     grid-template-columns: 1fr;
     grid-template-rows: 650px auto 50px;
@@ -116,32 +114,19 @@ color: black;
     grid-template-columns: 1fr 1.99fr;
     grid-template-rows: 70px auto;
 }
-.black {
-    background: black;
-    width: 100%;
-    height: 70px;
-}
-.event-image {     
+.event-image {    
     margin: 0;
     overflow: hidden;
 }
 .event-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-}
-.circle-content {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background: #181C20;
-    top: 0;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+
 }
 .content {
     padding-top: 50px;
-    background: #0D0E10;
+    background: url(../img/descarga1.png);
+    background-position-y: -10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -191,20 +176,32 @@ color: black;
 .miniature {
     grid-area: miniature;
     display: grid;
-    grid-template-columns: repeat(3, minmax(100px,396px));
-    grid-template-rows: repeat(3,396px);
-    justify-content: center;
-    grid-gap: 28px;
+            grid-template-columns: repeat(auto-fill,400px);
+            grid-gap: 5px;
+            justify-content: center;
 }
 .items {
-    background: rgb(188, 4, 208);
     display: block;
     margin: 0px;
     cursor:pointer;
     position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f2f2f2;
+    overflow: hidden;
 }
-.image-items {
-    margin: 0;
+.items img {
+    width: 100%;
+    height: 100%;
+}
+.level-1 {
+    grid-row-end: span 3;
+}
+.level-2 {
+    grid-row-end: span 2;
+}
+.level-3 {
+    grid-row-end: span 1;
 }
 .post-overlay {
     background: rgba(0, 0, 0, .6);
@@ -226,11 +223,21 @@ color: black;
     font-size: 2em;
     font-weight: 100;
     width: 350px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.post-overlay h4 {
+    font-size: 1.6em;
+    font-weight: 100;
+    width: 350px;
+    margin: 0;
+    margin-top: 5px;
 }
 .post-overlay p {
     font-size: 1.13em;
     width: 350px;
     font-family: 'Raleway', sans-serif;
+    margin: 0;
     margin-top: 5px;
     font-weight: 500;
 }
