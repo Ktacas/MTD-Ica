@@ -21,7 +21,7 @@ body {
   width: 100%;
   position: fixed;
   /* background: rgba(0, 0, 0, .6);   */
-  background: rgba(0, 0, 0, .8);
+  background: rgba(0, 0, 0, .9);
   display: flex;
   justify-content: space-between;
   z-index: 3;
@@ -114,6 +114,11 @@ color: black;
     grid-template-columns: 1fr 1.99fr;
     grid-template-rows: 70px auto;
 }
+.black {
+    width: 100%;
+    height: 70px;
+    background: black;
+}
 .event-image {    
     margin: 0;
     overflow: hidden;
@@ -121,7 +126,6 @@ color: black;
 .event-image img {
     width: 100%;
     height: 100%;
-
 }
 .content {
     padding-top: 50px;

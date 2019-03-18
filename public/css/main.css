@@ -288,21 +288,18 @@ body .content a {
 .events {
     grid-area: events;
     background: white;
-    padding-top: 22px;
-    color: #000000;
+    padding-top: 50px;
+    color: #fdfdfd;
+
 }
 .container_events {
-  background: rgb(241, 241, 241);
+  background: url(../img/descarga_e.png);
   width: 100%;
   height: 100%;
   margin: auto;
   display: grid;
   grid-template-columns: minmax(auto,1fr);
-  justify-content: center;
-}
-.division_events {
-
-
+  box-sizing: border-box;
 }
 .transparent {
   grid-area: transparent;
@@ -333,56 +330,62 @@ body .content a {
 } */
 .image_events {
   margin: 0;
-  width: 40%;
+  width: 100%;
   height: 100%;
   grid-area: image_events;
   overflow: hidden;
 }
 .image_events img {
   width: 100%;
-  height:auto;
+  height:100%;
   object-fit:cover;
 }
 .container-figure {
   display: flex;
+  width: 100%;
+  height: auto;
 }
-.content  {
-  margin: 30px 40px;
+.content_a  {
+  margin: 50px 60px;
+  color: #fdfdfd;
 }
 .title_events {
-  font-weight: 600;
+  font-weight: 300;
   font-family: 'Dosis', sans-serif;
-  font-size: 2em;
-  margin: 0;
+  font-size: 2.8em;
+  margin: 10px 0px;
   grid-area: title_events;
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 .description_events {
   font-weight: 100;
   grid-area: description_events;
   font-family: 'Dosis', sans-serif;
-  font-size: 1.13em;
+  font-size: 1.5em;
   margin: 0;
-  color: rgb(34, 34, 34);
+  color: rgb(248, 248, 248);
   width: 490px;
   margin-bottom: 15px;
 }
-/* .bottom_events {
+.bottom_events {
   border: 2px solid azure;
   border-radius: 50px;
   padding: 9px 30px;
   text-decoration: none;
   color: azure;
   font-weight: 300;
-  font-size: 2em;
+  font-size: 1.8em;
   font-family: 'Dosis', sans-serif;
-  grid-area: bottom_events;
-  margin-left: 120px;
-  justify-self: end;
-  margin: auto 0;
-} */
+  margin: auto;
+  margin-top: 250px;
+  width: 20%;
+  height: 30px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+}
 /* SLIDER */
 .slider {
   display: block;
@@ -401,7 +404,7 @@ body .content a {
   animation: slide 12s infinite;
   overflow: hidden;
 }
-/* .slide:nth-child(1) {
+.slide:nth-child(1) {
   left: 0%;
   animation-delay: -1s;
   background: red;
@@ -426,7 +429,7 @@ body .content a {
   30% { left: -100%; width: 100%;}
   30.0001% { left: -100%; width: 0%;}
   100% { left: 100%; width: 0%;}
-} */
+}
 /* -------------------------------BLOG------------------------------- */
 .blog {
     grid-area: blog;
@@ -437,7 +440,6 @@ body .content a {
 }
 .container_blog {
   /* background: #671998; */
-  background: url(../img/pattern.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -468,7 +470,7 @@ body .content a {
   grid-template-rows: 160px auto 50px;
   grid-gap: 0px;
   /* background:#731caa; */
-  background: url(../img/pattern.png);
+  background: url(../img/trianglify3.png);
   background-repeat: no-repeat;
   background-size: cover;
   /* background: url(../images/pattern.png); */
