@@ -29,7 +29,7 @@
                         <li><a class="cool-link" href="../Core/Index_core.php">Core</a></li>
                         <li><a class="cool-link" href="../Eventos/Index_eventos.php">Eventos</a></li>
                         <li><a class="cool-link" href="../Blog/Index_blog.php">Blogs</a></li>
-                        <li><a class="button-link" href="#">Se miembro</a></li>
+                        <li><a class="button-link" href="../login/login.php">SIGN</a></li>
                     </ul>
                 </nav>
             </div>
@@ -50,7 +50,7 @@
                 <div class="black"></div>
                 <div class="black"></div>
                 <figure class="image-hero">
-                <img src="data:image/jpg;base64,<?php echo base64_encode($row['Imagen']); ?>" alt="">
+                    <img src="../../img/eventos_principal1.png" alt="">
                 </figure>
                 <div class="content-hero">
                     <h2><?php echo $row['Titulo']; ?></h2>
@@ -67,7 +67,7 @@
                             <p><?php echo $row['Hora']; ?></p>
                         </div>
                     </div>
-                    <a href="#">Registrate</a>
+                    <a href="../formulario/registro.php">Registrate</a>
                 </div>
             </div>
         </section>

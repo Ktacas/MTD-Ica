@@ -23,10 +23,10 @@
                 <!-- nav -->
                 <nav class="menu">
                     <ul>
-                        <li><a class="cool-link" href="../public/vistas/Principal/index.php">Inicio</a></li>
-                        <li><a class="cool-link" href="../public/vistas/Core/Index_core.php">Core</a></li>
-                        <li><a class="cool-link" href="../public/vistas/Eventos/Index_eventos.php">Eventos</a></li>
-                        <li><a class="cool-link" href="../public/vistas/Blog/Index_blog.php">Blogs</a></li>
+                        <li><a class="cool-link" href="../public/vistas1/Principal/index.php">Inicio</a></li>
+                        <li><a class="cool-link" href="../public/vistas1/Core/Index_core.php">Core</a></li>
+                        <li><a class="cool-link" href="../public/vistas1/Eventos/Index_eventos.php">Eventos</a></li>
+                        <li><a class="cool-link" href="../public/vistas1/Blog/Index_blog.php">Blogs</a></li>
                         <li><a class="button-link" href="#">Se miembro</a></li>
                     </ul>
                 </nav>
@@ -38,10 +38,10 @@
         </figure>
         <h1>Bienvenida <span>Daniela Galindo</span></h1>
         <div class="links">
-            <a href="../public/vistas/Admin/Admin_eventos/enviar_datos_eventos/admin_eventos_crear.php">Crear Evento</a>
-            <a href="../public/vistas/Admin/Admin_eventos/visualizacion_datos_eventos/visualizar_eventos.php">Visualizar Evento</a>
-            <a href="../public/vistas/Admin/Admin_blog/enviar_datos_blog/admin_blog_crear.php">Crear Blog</a>
-            <a href="../public/vistas/Admin/Admin_blog/visualizacion_datos_blog/visualizar_blog.php">Visualizar Blog</a>
+            <a href="../public/vistas1/Admin/Admin_eventos/enviar_datos_eventos/admin_eventos_crear.php">Crear Evento</a>
+            <a href="../public/vistas1/Admin/Admin_eventos/visualizacion_datos_eventos/visualizar_eventos.php">Visualizar Evento</a>
+            <a href="../public/vistas1/Admin/Admin_blog/enviar_datos_blog/admin_blog_crear.php">Crear Blog</a>
+            <a href="../public/vistas1/Admin/Admin_blog/visualizacion_datos_blog/visualizar_blog.php">Visualizar Blog</a>
         </div>
     </div>
 </body>
