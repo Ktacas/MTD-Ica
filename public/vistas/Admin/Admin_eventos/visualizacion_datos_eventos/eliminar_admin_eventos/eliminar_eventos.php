@@ -1,5 +1,5 @@
 <?php
-    include '../../conexion_db_eventos.php';
+    require '../../../../../config/Conexion_Ev.php';
 
     $id=$_REQUEST['ID_titulo'];
 
@@ -8,7 +8,7 @@
     $resultado= $conexion ->query($query);
     
     if($resultado){
-        header('Location: ../visualizar_Eventos.php');
+        header('Location: ../visualizar_eventos.php');
     }else{
         echo '<script> alert("Error")</script>';
     };

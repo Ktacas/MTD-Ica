@@ -35,7 +35,7 @@
         </header>
 
         <?php
-            $conexion=mysqli_connect('localhost','root','','dbeventos');
+            require '../../config/Conexion_Ev.php';
         ?>
         <?php include 'eventos_activos.php' ?>
         

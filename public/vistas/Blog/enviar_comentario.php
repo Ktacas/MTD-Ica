@@ -1,5 +1,5 @@
 <?php
-    $conexion=mysqli_connect('localhost','root','','dbblog');
+    require '../../config/Conexion_Bl.php';
 
     $comentario=$_POST['comentario'];
     

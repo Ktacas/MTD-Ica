@@ -1,5 +1,5 @@
 <?php
-    $conexion=mysqli_connect('localhost','root','','dbeventos');
+    require '../../config/Conexion_Ev.php';
 
     $query = "SELECT * FROM `tbeventos`";
 

@@ -1,5 +1,5 @@
 <?php
-    include '../conexion_db_eventos.php';
+    require '../../../../config/Conexion_Ev.php';
 
     $imagen=addslashes(file_get_contents($_FILES['imagen']['tmp_name']));
     $fecha=$_POST['fecha'];

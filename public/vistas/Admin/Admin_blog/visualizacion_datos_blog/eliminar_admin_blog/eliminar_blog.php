@@ -1,5 +1,5 @@
 <?php
-    include '../../conexion_db_blog.php';
+    require '../../../../../config/Conexion_Bl.php';
 
     $id=$_REQUEST['ID_titulo'];
 

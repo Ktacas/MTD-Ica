@@ -1,5 +1,5 @@
 <?php
-    include '../conexion_db_eventos.php';
+    require '../../../../config/Conexion_Ev.php';
 
     $query = "SELECT * FROM `tbeventos`";
 

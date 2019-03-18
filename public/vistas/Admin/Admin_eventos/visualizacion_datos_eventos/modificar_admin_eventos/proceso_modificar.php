@@ -1,5 +1,5 @@
 <?php
-    include '../../conexion_db_eventos.php';
+    require '../../../../../config/Conexion_Ev.php';
 
     $id=$_REQUEST['ID_titulo'];
     $imagen=addslashes(file_get_contents($_FILES['imagen']['tmp_name']));

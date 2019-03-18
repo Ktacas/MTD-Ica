@@ -37,7 +37,7 @@
         </header>
         <section class="hero">
             <?php 
-                $conexion=mysqli_connect('localhost','root','','dbeventos');
+                require '../../config/Conexion_Ev.php';
 
                 $id=$_REQUEST['ID_titulo'];
 

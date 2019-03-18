@@ -1,5 +1,5 @@
 <?php
-    $conexion=mysqli_connect('localhost','root','','dbblog');
+    require '../../config/Conexion_Bl.php';
 
     $query = "SELECT * FROM dtblog ORDER BY ID_titulo ASC LIMIT 3";
 
