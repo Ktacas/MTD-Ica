@@ -1,3 +1,22 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+body {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+/* -------------------------------CONTAINER------------------------------- */
+.container {
+    display: grid;
+    grid-template-areas: "hero" 
+                         "core"
+                         "member"
+                         "developers"
+                         "footer";
+    grid-template-rows: 100vh 420px 380px 640px 700px;
+}
+
 /* -------------------------------HEADER------------------------------- */
 .header {
     font-family: 'Raleway', sans-serif;
@@ -102,6 +121,7 @@
     height: 70px;
     width: 100%;
     display: flex;
+    grid-area: footer;
     justify-content: space-between;
   }
 .logo_footer {
