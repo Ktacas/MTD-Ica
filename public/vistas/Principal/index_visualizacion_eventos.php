@@ -17,7 +17,7 @@
       
                 <div class="container-figure">
                     <figure class="image_events">
-                        <img src="../../img/eventos_principal1.png" alt="">
+                        <img src="data:image/jpg;base64,<?php echo base64_encode($row['Imagen']); ?>" alt="">
                     </figure>
                     <div class="content_a">
                         <h2 class="title_events"><?php echo $row['Titulo']; ?></h2>

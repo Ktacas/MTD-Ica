@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/normalize.css">
-    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../public/css/normalize.css">
+    <link rel="stylesheet" href="../../public/css/main.css">
     <title>MTDevelopers</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
             <div class="container_header">
                 <!-- logo -->
                 <figure class="logo">
-                    <img src="../../img/Blanco800x346.png" alt="logo">
+                    <img src="../../public/img/Blanco800x346.png" alt="logo">
                 </figure>
                 <!-- nav -->
                 <nav class="menu">
@@ -36,7 +36,7 @@
         
         <section class="hero">
             <!-- video -->
-            <video src="video/160330_1_Typing1_Mpeg4_4K (2).mp4" autoplay loop muted></video>
+            <video src="../../public/video/160330_1_Typing1_Mpeg4_4K (2).mp4" autoplay loop muted></video>
             <!-- overlay(Fondo azul trasnparente) -->
             <div class="overlay"></div>
             <!-- contenedor-texto -->
@@ -50,7 +50,7 @@
             <div class="container_core">
                 <div class="division_core">
                     <figure class="image_core">
-                        <img src="../../img/perfil_core1.jpg" id="img" alt="">
+                        <img src="../../public/img/perfil_core1.jpg" id="img" alt="">
                     </figure>
                     <h2 class="title_core">Kattya Garcia Velasquez</h2>
                     <div class="descripion_core">
@@ -123,7 +123,7 @@
         <footer class="footer">
             <!-- logo -->
             <figure class="logo_footer">
-                <img src="../../img/Blanco800x346.png" alt="logo">
+                <img src="../../public/img/Blanco800x346.png" alt="logo">
             </figure>
             <div class="info_footer">
                 <p>Design with 💕by

@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../../css/main_eventos.css">
-    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../public/css/main_eventos.css">
+    <link rel="stylesheet" href="../../public/css/normalize.css">
     <title>Eventos</title>
 </head>
 
@@ -20,7 +20,7 @@
             <div class="container_header">
                 <!-- logo -->
                 <figure class="logo">
-                    <img src="../../img/Blanco800x346.png" alt="logo">
+                    <img src="../../public/img/Blanco800x346.png" alt="logo">
                 </figure>
                 <!-- nav -->
                 <nav class="menu">
@@ -107,7 +107,7 @@
         <footer class="footer">
             <!-- logo -->
             <figure class="logo_footer">
-                <img src="../../img/Blanco800x346.png" alt="logo">
+                <img src="../../public/img/Blanco800x346.png" alt="logo">
             </figure>
             <div class="info_footer">
                 <p>Design with 💕by

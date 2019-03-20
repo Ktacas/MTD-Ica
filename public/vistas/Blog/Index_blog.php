@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="../../css/main_b.css">
-    <link rel="stylesheet" href="../../css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="../../public/css/main_b.css">
+    <link rel="stylesheet" href="../../public/css/normalize.css">
     <title>Container</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
             <div class="container_header">
                 <!-- logo -->
                 <figure class="logo">
-                    <img src="../../img/Blanco800x346.png" alt="logo">
+                    <img src="../../public/img/Blanco800x346.png" alt="logo">
                 </figure>
                 <!-- nav -->
                 <nav class="menu">
@@ -51,25 +51,25 @@
                 <h3>Lo más leido</h3>
                 <article class="blog-post">
                     <figure class="miniature">
-                        <img src="../../img/blog_post1.png" alt="">
+                        <img src="../../public/img/blog_post1.png" alt="">
                     </figure>
                     <p class="content-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                 </article>
                 <article class="blog-post">
                     <figure class="miniature">
-                        <img src="../../img/blog_post1.png" alt="">
+                        <img src="../../public/img/blog_post1.png" alt="">
                     </figure>
                     <p class="content-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                 </article>
                 <article class="blog-post">
                     <figure class="miniature">
-                        <img src="../../img/blog_post1.png" alt="">
+                        <img src="../../public/img/blog_post1.png" alt="">
                     </figure>
                     <p class="content-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                 </article>
                 <article class="blog-post">
                     <figure class="miniature">
-                        <img src="../../img/blog_post1.png" alt="">
+                        <img src="../../public/img/blog_post1.png" alt="">
                     </figure>
                     <p class="content-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                 </article>
@@ -96,7 +96,7 @@
         <footer class="footer">
             <!-- logo -->
             <figure class="logo_footer">
-                    <img src="../../img/Blanco800x346.png" alt="logo">
+                    <img src="../../public/img/Blanco800x346.png" alt="logo">
                 </figure>
                 <div class="info_footer">
                     <p>Design with 💕by 

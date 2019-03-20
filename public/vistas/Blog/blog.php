@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../../css/main_blog.css">
-    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../public/css/main_blog.css">
+    <link rel="stylesheet" href="../../public/css/normalize.css">
     <title>Container</title>
 </head>
 <body>
@@ -29,7 +29,7 @@
             <div class="container_header">
                 <!-- logo -->
                 <figure class="logo">
-                    <img src="../../img/Blanco800x346.png" alt="logo">
+                    <img src="../../public/img/Blanco800x346.png" alt="logo">
                 </figure>
                 <!-- nav -->
                 <nav class="menu">
@@ -62,7 +62,7 @@
             <div class="line"></div>
             <div class="perfil-content">
                 <figure class="avatar-content">
-                <img src="../../img/perfil_core2.jpg" alt="">
+                <img src="../../public/img/perfil_core2.jpg" alt="">
                 </figure>
                 <a class="name-perfil" href="#">Daniela Galindo Maldonado</a>
             </div>
@@ -82,7 +82,7 @@
         <footer class="footer">
             <!-- logo -->
             <figure class="logo_footer">
-                <img src="../../img/Blanco800x346.png" alt="logo">
+                <img src="../../public/img/Blanco800x346.png" alt="logo">
             </figure>
             <div class="info_footer">
                 <p>Design with 💕by

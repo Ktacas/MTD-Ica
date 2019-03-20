@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/normalize.css">
-    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../public/css/normalize.css">
+    <link rel="stylesheet" href="../../public/css/main.css">
     <title>Document</title>
 </head>
 <body>
@@ -18,15 +18,15 @@
             <div class="container_header">
                 <!-- logo -->
                 <figure class="logo">
-                    <img src="../../img/Blanco800x346.png" alt="logo">
+                    <img src="../../public/img/Blanco800x346.png" alt="logo">
                 </figure>
                 <!-- nav -->
                 <nav class="menu">
                     <ul>
-                        <li><a class="cool-link" href="index.php">Inicio</a></li>
-                        <li><a class="cool-link" href="../Core/Index_core.php">Core</a></li>
+                    <li><a class="cool-link" href="../Principal/index.php">Inicio</a></li>
+                        <li><a class="cool-link" href="#">Core</a></li>
                         <li><a class="cool-link" href="../Eventos/Index_eventos.php">Eventos</a></li>
-                        <li><a class="cool-link" href="../Blog/Index_blog.php">Blogs</a></li>
+                        <li><a class="cool-link" href="Index_blog.php">Blogs</a></li>
                         <li><a class="button-link" href="#">Se miembro</a></li>
                     </ul>
                 </nav>
