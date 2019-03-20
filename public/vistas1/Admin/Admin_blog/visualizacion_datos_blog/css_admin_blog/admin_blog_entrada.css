@@ -1,0 +1,17 @@
+.admin_blog_entrada_container h2{
+    width: 230px;
+    height: auto;
+    padding: 10px;
+    background-color: red;
+}
+
+.admin_blog_entrada_container h1{
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.admin_blog_entrada_container h1 input{
+    padding: 1px;
+    margin: 10px;
+}

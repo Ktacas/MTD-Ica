@@ -38,7 +38,7 @@
                         <li><a class="cool-link" href="../Core/Index_core.php">Core</a></li>
                         <li><a class="cool-link" href="../Eventos/Index_eventos.php">Eventos</a></li>
                         <li><a class="cool-link" href="Index_blog.php">Blogs</a></li>
-                        <li><a class="button-link" href="#">Se miembro</a></li>
+                        <li><a class="button-link" href="../login/login.php">SIGN</a></li>
                     </ul>
                 </nav>
             </div>
