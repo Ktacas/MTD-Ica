@@ -2,14 +2,15 @@
     require '../../../../../config/Conexion_Bl.php';
 
     $id=$_REQUEST['ID_titulo'];
-    $imagen=addslashes(file_get_contents($_FILES['imagen']['tmp_name']));
     $fecha=$_POST['fecha'];
     $titulo=$_POST['titulo'];
     $categoria=$_POST['categoria'];
     $descripcion=$_POST['descripcion'];
+    $contenido=$_POST['contenido'];
+    $enlace=$_POST['enlace'];
 
     if(isset($_REQUEST['modificar'])){
-        $query="UPDATE dtBlog SET titulo='$titulo', imagen='$imagen', fecha='$fecha', categoria='$categoria', descripcion='$descripcion'
+        $query="UPDATE dtBlog SET titulo='$titulo', fecha='$fecha', categoria='$categoria', descripcion='$descripcion', contenido='$contenido', enlace='$enlace'
                     WHERE ID_titulo ='$id'";
         
         $resultado= $conexion ->query($query);
