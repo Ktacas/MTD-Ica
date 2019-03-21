@@ -5,6 +5,7 @@
     // Nombre de la base de datos
     define("DB_NAME_Bl", "dbblog");
     define("DB_NAME_Ev", "dbeventos");
+    define("DB_NAME_Reg", "db_mtdpage");
 
     // Usuario de la base de datos
     define("DB_USERNAME","root");

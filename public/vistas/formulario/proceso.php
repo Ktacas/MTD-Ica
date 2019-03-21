@@ -1,6 +1,6 @@
 <?php
 
-include("conexion.php");
+require '../../config/Conexion_Reg.php';
 
 
 $Nombre = $_POST['Nombre'];
