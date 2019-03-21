@@ -16,15 +16,15 @@
         }
 
         // Implementamos un metodo para editar registros
-        public function editar ($id, $titulo, $fecha, $categoria, $descripcion, $contenido, $enlace){
+        public function editar ($idblog, $titulo, $fecha, $categoria, $descripcion, $contenido, $enlace){
             $sql ="UPDATE dtBlog SET titulo='$titulo', fecha='$fecha', categoria='$categoria', descripcion='$descripcion', contenido='$contenido', enlace='$enlace'
-                        WHERE ID_titulo ='$id'";
+                        WHERE ID_titulo ='$idblog'";
             return ejecutarConsulta($sql);
         }
 
         // Implementamos un metodo para mostrar los datos de un registro a modificar
-        public function mostrar($idarticulo){
-            $sql ="SELECT * FROM articulo WHERE idarticulo='$idarticulo'";
+        public function mostrar($idblog){
+            $sql ="SELECT * FROM dtblog WHERE ID_titulo='$idblog'";
             return ejecutarConsultaSimpleFila($sql);
         }
 
