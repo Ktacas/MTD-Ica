@@ -7,8 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../../../css/normalize.css">
-    <link rel="stylesheet" href="../../../../css/main_crear.css">
+    <link rel="stylesheet" href="../../../../public/css/normalize.css">
+    <link rel="stylesheet" href="../../../../public/css/main_crear.css">
 </head>
 <body>
 <header class="header">
@@ -16,7 +16,7 @@
         <div class="container_header">
                 <!-- logo -->
                 <figure class="logo">
-                    <img src="../../../../img/Blanco800x346.png" alt="logo">
+                    <img src="../../../../public/img/Blanco800x346.png" alt="logo">
                 </figure>
                 <!-- nav -->
                 <nav class="menu">

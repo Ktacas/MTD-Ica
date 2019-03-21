@@ -5,7 +5,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400" rel="stylesheet">
-    <link rel="stylesheet" href="../../../../css/normalize.css">
+    <link rel="stylesheet" href="../../../../public/css/normalize.css">
     <link rel="stylesheet" href="css_admin_blog/visualizacion_blog.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
             <div class="container_header">
                     <!-- logo -->
                     <figure class="logo">
-                        <img src="../../../../img/Blanco800x346.png" alt="logo">
+                        <img src="../../../../public/img/Blanco800x346.png" alt="logo">
                     </figure>
                     <!-- nav -->
                     <nav class="menu">
