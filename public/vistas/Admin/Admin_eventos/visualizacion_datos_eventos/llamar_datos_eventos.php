@@ -24,7 +24,7 @@
                 <tr class="content">
                     <td rowspan="2">
                         <figure class="image">
-                            <img src="data:image/jpg;base64,<?php echo base64_encode($row['Imagen']); ?>" width="100" heigth="100" name="imagenv" id="imagenv">
+                            <img src="data:image/jpg;base64,<?php echo base64_encode($row["Imagen"]); ?>" width="100" heigth="100" name="imagenv" id="imagenv">
                         </figure>
                     </td>
                     <td rowspan="2">
