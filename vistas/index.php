@@ -1,5 +1,4 @@
-<?php require 'header.php'; ?>
-    
+<?php require 'header.php'; ?> 
         <section class="hero">
             <!-- video -->
             <video src="../public/video/160330_1_Typing1_Mpeg4_4K (2).mp4" autoplay loop muted></video>
@@ -86,5 +85,4 @@
                 </div>     
             </div>         
         </section>
-
 <?php require 'footer.php' ?>

@@ -14,7 +14,7 @@ body {
                          "member"
                          "developers"
                          "footer";
-    grid-template-rows: 100vh 420px 380px 640px 50px;
+    grid-template-rows: 100vh 420px 380px 640px 700px;
 }
 
 /* -------------------------------HEADER------------------------------- */

@@ -40,7 +40,7 @@
     <!-- <link rel="stylesheet" href="../public/css/visualizacion_eventos.css"> -->
     
     <!-- JQUERY 3.3.1-->
-    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <title>MTDevelopers</title>
 </head>

@@ -10,9 +10,6 @@
     <div class="slide">
         <div class="container_events">
                 <div class="transparent"></div>
-                <div class="tag_events">Eventos</div>
-                
-                
                 <div class="line_events"></div>
       
                 <div class="container-figure">
