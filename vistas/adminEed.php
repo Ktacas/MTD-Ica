@@ -1,4 +1,7 @@
-<?php require 'header.php';?>
+<?php require 'header/doctype.php'; ?>
+<link rel="stylesheet" href="../public/css/main_crear.css">
+<?php require 'header/title.php'; ?>
+<?php require 'header.php'; ?>
 
 <?php require '../modelos/AdminEed.php' ?>
 
@@ -26,6 +29,6 @@
 
         <input type="submit" value="modificar" name="modificar">
 
-        <a id href="../visualizar_eventos.php">Cancelar</a><br>
+        <a href="adminE.php">Cancelar</a><br>
     </form>
 </div>

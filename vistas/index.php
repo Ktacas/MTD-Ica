@@ -1,4 +1,9 @@
-<?php require 'header.php'; ?> 
+<?php require 'header/doctype.php'; ?>
+<link rel="stylesheet" href="../public/css/main.css">
+<?php require 'header/title.php'; ?>
+<div class="container">
+<?php require 'header.php'; ?>
+    
         <section class="hero">
             <!-- video -->
             <video src="../public/video/160330_1_Typing1_Mpeg4_4K (2).mp4" autoplay loop muted></video>
@@ -22,7 +27,7 @@
                         <h3>Desarrollador de Software, Gestión de proyectos, Desarrollador de Sitios Web y SCRUM</h3>
                         <p>Microsoft Influencer en <span>MTDeveloper Ica</span> and Community Lead MTDeveloper Ica</p>
                     </div>
-                    <a class="bottom_core" href="../Core/Index_core.php">Más info</a>
+                    <a class="bottom_core" href="core.php">Más info</a>
                 </div>
             </div>
         </section>
@@ -85,4 +90,5 @@
                 </div>     
             </div>         
         </section>
+
 <?php require 'footer.php' ?>

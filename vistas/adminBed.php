@@ -1,4 +1,7 @@
-<?php require 'header.php';?>
+<?php require 'header/doctype.php'; ?>
+<link rel="stylesheet" href="../public/css/main_crear.css">
+<?php require 'header/title.php'; ?>
+<?php require 'header.php'; ?>
 
 <?php require '../modelos/AdminBed.php' ?>
 

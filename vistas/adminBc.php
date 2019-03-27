@@ -1,4 +1,7 @@
-<?php require 'header.php' ?>
+<?php require 'header/doctype.php'; ?>
+<link rel="stylesheet" href="../public/css/main_crear.css">
+<?php require 'header/title.php'; ?>
+<?php require 'header.php'; ?>
 
 <div id="admin_blog_container"> 
     <form action="../modelos/AdminBc.php" name="formenviar" id="formenviar" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
