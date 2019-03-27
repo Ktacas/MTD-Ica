@@ -68,7 +68,7 @@
                         <div class="bubble"></div>
                         <div class="bubble"></div>
                         <div class="bubble"></div>
-                        <div class="bubb
+                        <div class="bubble"></div>
                         <div class="bubble"></div>
                     </div>
                     <h2 class="title_bottom">¿Quieres ser parte de nuestro equipo?</h2>

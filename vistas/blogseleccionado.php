@@ -13,7 +13,7 @@
                 <iframe width="1060" height="500" src="https://www.youtube.com/embed/<?php echo $row['enlace'];?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </figure>
             <div class="details-content">
-                <p>Publicado el&nbsp;<span><?php echo $row['fecha']; ?></span></p>
+                <p>Publicado el&nbsp;<span><?php require '../modelos/FechaB.php' ?></span></p>
                 <div class="icon-content">
                     <i class="fas fa-heart"></i>
                     <span class="heart-number">23</span>

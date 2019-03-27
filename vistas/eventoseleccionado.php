@@ -19,9 +19,7 @@
                     <div class="icons">
                         <div class="icon-calendar">
                             <i class="far fa-calendar-alt"></i>
-                            <p>
-                                12 de Marzo del 2019
-                            </p>
+                            <p><?php require '../modelos/FechaE.php' ?></p>
                         </div>
                         <div class="icon-clock">
                             <i class="far fa-clock"></i>
