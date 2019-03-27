@@ -19,7 +19,7 @@
         <p>Publicado el&nbsp<span><?php echo $row['fecha']; ?></span></p>
         <div class="perfil-box">
              <figure class="image-perfil">
-                 <img src="../../img/perfil_core2.jpg" alt="">
+                 <img src="../public/img/perfil_core2.jpg" alt="">
              </figure>
              <a class="link-perfil" href="#">Daniela Galindo Maldonado</a>
         
