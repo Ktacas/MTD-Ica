@@ -1,4 +1,8 @@
-<?php require 'header.php' ?>
+<?php require 'header/doctype.php'; ?>
+<link rel="stylesheet" type="text/css" href="../public/css/main_b.css">
+<?php require 'header/title.php'; ?>
+<div class="container">
+<?php require 'header.php'; ?>
 
         <section class="post">
             <?php require '../modelos/BlogL.php'?>

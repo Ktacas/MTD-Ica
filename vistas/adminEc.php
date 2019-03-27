@@ -1,4 +1,7 @@
-<?php require 'header.php' ?>
+<?php require 'header/doctype.php'; ?>
+<link rel="stylesheet" href="../public/css/main_crear.css">
+<?php require 'header/title.php'; ?>
+<?php require 'header.php'; ?>
 
 <div id="admin_blog_container">
     <form action="../modelos/AdminEc.php" name="formenviar" id="formenviar" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
@@ -16,7 +19,7 @@
         <label>Estado: <input type="text" REQUIRED name="estado" placeholder="ACTIVO O FINALIZADO"></label> 
         <div class="container">
         <input type="submit" value="Enviar" name="enviar">
-        <a href="../visualizacion_datos_eventos/visualizar_eventos.php">Cancelar</a>
+        <a href="adminE.php">Cancelar</a>
         </div>
     </form>
 </div>
