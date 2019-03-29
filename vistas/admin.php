@@ -1,7 +1,7 @@
 <?php require 'header/doctype.php'; ?>
 <link rel="stylesheet" href="../public/css/main_a.css">
 <?php require 'header/title.php'; ?>
-<?php require 'header.php'; ?>  
+<?php require 'header.php'; ?>
 
 <div class="container">
     <figure class="perfil-img">

@@ -1,7 +1,7 @@
 <?php 
     require '../config/Conexion_Ev.php';
     
-    $query = "SELECT ID_titulo,Titulo, Imagen, Year(Fecha), Month(Fecha), Day(Fecha), Lugar, Estado FROM `tbeventos` 
+    $query = "SELECT * FROM `tbeventos` 
                 WHERE Estado ='FINALIZADO' OR Estado ='ACTIVO' 
                     ORDER BY Estado ASC";
 
@@ -14,7 +14,7 @@ while ( $row = $resultado->fetch_assoc()){?>
 
         <span class="post-overlay">
             <h3><?php echo $row['Titulo']; ?></h3>
-            <p>Evento realizado el <span><?php require 'FechaE.php' ?></span> en <?php echo $row['Lugar']; ?></p>
+            <p>Evento realizado el <span><?php echo $row['Fecha']; ?></span> en <?php echo $row['Lugar']; ?></p>
             <p>Realizado en <span><?php echo $row['Lugar']; ?></span></p>
             <h4><?php echo $row['Estado']; ?></h4>
         </span>

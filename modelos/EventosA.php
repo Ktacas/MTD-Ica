@@ -1,7 +1,7 @@
 <?php 
     require '../config/Conexion_Ev.php';
     
-    $query = "SELECT ID_titulo, Titulo, Subtitulo, Year(Fecha), Month(Fecha), Day(Fecha), Imagen FROM `tbeventos`  
+    $query = "SELECT * FROM `tbeventos`  
                 WHERE Estado= 'ACTIVO'
                     ORDER BY ID_titulo DESC LIMIT 1";
 
@@ -15,7 +15,7 @@ while ( $row = $resultado->fetch_assoc()){?>
             <div class="circle-content"></div>
             <h2 class="title-content"><?php echo $row['Titulo']; ?></h2>
             <h4 class="sub-content"><?php echo $row['Subtitulo']; ?></h4>
-            <p class="date-content"><?php require 'FechaE.php' ?></p>
+            <p class="date-content"><?php echo $row['Fecha']; ?></p>
             <a href="eventoseleccionado.php?ID_titulo=<?php echo $row['ID_titulo']; ?>" class="button-content">Ver más</a>
         </div>
         <figure class="event-image">

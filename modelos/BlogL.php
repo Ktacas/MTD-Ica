@@ -11,7 +11,7 @@
     
     $empieza=($pagina-1)*$por_pagina;
     
-    $query = "SELECT ID_titulo, enlace, titulo, categoria, Year(fecha) ,Month(fecha), Day(fecha), descripcion FROM dtblog LIMIT $empieza, $por_pagina";
+    $query = "SELECT * FROM dtblog LIMIT $empieza, $por_pagina";
     
     $resultado= $conexion->query($query);
     
@@ -26,7 +26,7 @@
             <div class="content-preview">
                 <a href="blogseleccionado.php?ID_titulo=<?php echo $row['ID_titulo']; ?>"><?php echo $row['categoria']; ?></a>
                 <h2><?php echo $row['titulo']; ?></h2>
-                <p>Publicado el&nbsp;<span><?php require 'FechaB.php'?></span></p>
+                <p>Publicado el&nbsp;<span><?php echo $row['fecha']; ?></span></p>
                 <p class="content-p"><?php echo $row['descripcion']; ?></p>
                 <div class="others-preview">
                     <figure class="perfil-post">

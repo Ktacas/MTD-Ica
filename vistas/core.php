@@ -47,44 +47,43 @@
           quisquam.</p>
 </section>
 <section class="core">
-    <h2>Otros Líderes</h2>
+    <h2>Otros miembros</h2>
     <div class="content_core">
         <div class="item_core">
             <figure class="members">
-            <img src="../public/img/perfil_core6.jpg" alt="">
+            <img src="../public/img/perfil_core1.jpg" alt="">
         </figure>
-        <p>KArlx's</p>
+        <p>Kattya</p>
         </div>
         <div class="item_core">
             <figure class="members">
             <img src="../public/img/perfil_core2.jpg" alt="">
-            </figure>
-            <p>Daniela</p>
-        </div>
-        <div class="item_core">
-            <a href="core.php?ID_titulo=1"><figure class="members">
-            <img src="../public/img/perfil_core1.jpg" alt="">
-            </figure></a>
-        <p>Gian</p>
-        
+        </figure>
+        <p>Daniela</p>
         </div>
         <div class="item_core">
             <figure class="members">
             <img src="../public/img/perfil_core3.jpg" alt="">
         </figure>
-        <p>Chang</p>
-        </div>
-        <div class="item_core">
-            <figure class="members">
-            <img src="../public/img/perfil_core5.jpg" alt="">
-        </figure>
-        <p>Percy</p>
+        <p>Estefania</p>
         </div>
         <div class="item_core">
             <figure class="members">
             <img src="../public/img/perfil_core4.jpg" alt="">
         </figure>
         <p>Christopher</p>
+        </div>
+        <div class="item_core">
+            <figure class="members">
+            <img src="../public/img/perfil_core5.jpg" alt="">
+        </figure>
+        <p>katherin</p>
+        </div>
+        <div class="item_core">
+            <figure class="members">
+            <img src="../public/img/perfil_core6.jpg" alt="">
+        </figure>
+        <p>Yadhira</p>
         </div>
     </div>
 </section>
