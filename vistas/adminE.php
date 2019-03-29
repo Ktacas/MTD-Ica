@@ -4,8 +4,8 @@
 <?php require 'header.php'; ?>
 <div class="admin_blog_container">
             <div class="button-new">
-                <a href="admin.php">Admin</a>
-                <a href="adminEc.php">Nuevo</a>
+                <a href="admin">Admin</a>
+                <a href="adminEc">Nuevo</a>
             </div> 
             <form>       
                 <div id="adminB_section_tabla">

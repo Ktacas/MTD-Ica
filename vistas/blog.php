@@ -11,7 +11,7 @@
             <div class="container-search">
                 <h3>Búsqueda</h3>
                 <div class="container-align">
-                    <form action="../modelos/BlogB.php" method="post">
+                    <form action="../modelos/BlogB" method="post">
                         <input name="busqueda" id="busqueda" type="search" class="search" placeholder="Buscar por ..." value="">
                         <input type="submit" name="buscar" id="buscar" class="buscar"  name="buscar" value="Go!">
                     </form>

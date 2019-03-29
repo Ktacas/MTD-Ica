@@ -8,7 +8,7 @@
     $resultado= $conexion->query($query);
 
 while ( $row = $resultado->fetch_assoc()){?> 
-    <a href="eventoseleccionado.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">
+    <a href="eventoseleccionado?ID_titulo=<?php echo $row['ID_titulo']; ?>">
         <div class="items level-1">
             <img src="data:image/jpg;base64,<?php echo base64_encode($row['Imagen']); ?>" alt="">
 

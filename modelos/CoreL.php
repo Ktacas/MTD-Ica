@@ -9,7 +9,7 @@
  ?>
         <div class="item_core">
             <figure class="members">
-            <a href="core.php?ID_core=<?php echo $reg['ID_core']; ?>">
+            <a href="core?ID_core=<?php echo $reg['ID_core']; ?>">
                 <img src="data:image/jpg;base64,<?php echo base64_encode($reg['imagen']); ?>" alt="">
             </figure>
             </a>

@@ -27,7 +27,7 @@
                         <h3>Desarrollador de Software, Gestión de proyectos, Desarrollador de Sitios Web y SCRUM</h3>
                         <p>Microsoft Influencer en <span>MTDeveloper Ica</span> and Community Lead MTDeveloper Ica</p>
                     </div>
-                    <a class="bottom_core" href="core.php">Más info</a>
+                    <a class="bottom_core" href="core">Más info</a>
                 </div>
             </div>
         </section>
@@ -52,11 +52,11 @@
             <i class="fas fa-angle-right"></i>
             </div>
             <div class="container-button">
-                <a href="../Blog/Index_blog.php"><button class="learn-more">
+                <a href="../Blog/Index_blog"><button class="learn-more">
                     <div class="circle">
                         <span class="icon arrow"></span>
                     </div>
-                <a href="blog.php"><p class="button-text">Ver más</p></a>
+                <a href="blog"><p class="button-text">Ver más</p></a>
                 </button></a>
             </div>
         </section>

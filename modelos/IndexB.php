@@ -8,13 +8,13 @@
     while ($row = $resultado->fetch_assoc()){
 ?>
     <article class="box_blog">
-    <a class="link-box" href="blogseleccionado.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">
+    <a class="link-box" href="blogseleccionado?ID_titulo=<?php echo $row['ID_titulo']; ?>">
         <figure class="image_box">
             <img src="https://img.youtube.com/vi/<?php echo $row['enlace'];?>/maxresdefault.jpg" alt="">
         </figure>
     </a>
         <div class="detail_box">
-        <h2><a class="link-box" href="blogseleccionado.php?ID_titulo=<?php echo $row['ID_titulo']; ?>"><?php echo $row['titulo']; ?></a></h2>
+        <h2><a class="link-box" href="blogseleccionado?ID_titulo=<?php echo $row['ID_titulo']; ?>"><?php echo $row['titulo']; ?></a></h2>
         <p class="categories-box"><?php echo $row['categoria']; ?></p> 
         <p>Publicado el&nbsp<span><?php require 'FechaB.php' ?></span></p>
         <div class="perfil-box">

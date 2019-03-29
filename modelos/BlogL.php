@@ -18,13 +18,13 @@
     while ($row = $resultado->fetch_assoc()){ ?>
         <article class="post-preview">
             <figure class="miniature-preview">
-                <a href="blogseleccionado.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">
+                <a href="blogseleccionado?ID_titulo=<?php echo $row['ID_titulo']; ?>">
 
                     <img src="https://img.youtube.com/vi/<?php echo $row['enlace'];?>/maxresdefault.jpg" alt="">
                 </a>
             </figure> 
             <div class="content-preview">
-                <a href="blogseleccionado.php?ID_titulo=<?php echo $row['ID_titulo']; ?>"><?php echo $row['categoria']; ?></a>
+                <a href="blogseleccionado?ID_titulo=<?php echo $row['ID_titulo']; ?>"><?php echo $row['categoria']; ?></a>
                 <h2><?php echo $row['titulo']; ?></h2>
                 <p>Publicado el&nbsp;<span><?php require 'FechaB.php'?></span></p>
                 <p class="content-p"><?php echo $row['descripcion']; ?></p>

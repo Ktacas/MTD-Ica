@@ -32,17 +32,17 @@
                <p name="descripcion" id="descripcion"><?php echo $row['descripcion']; ?></p>
            </td>
            <td colspan="2" class="container-button">
-               <a id="btn_editar1" name="AB_visualizar" href="blogseleccionado.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">Visualizar</a>
+               <a id="btn_editar1" name="AB_visualizar" href="blogseleccionado?ID_titulo=<?php echo $row['ID_titulo']; ?>">Visualizar</a>
            </td>
        </tr>
 
        <tr class="buttons">
            <td>
-               <a id="btn_editar" href="adminBed.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">Editar</a>
+               <a id="btn_editar" href="adminBed?ID_titulo=<?php echo $row['ID_titulo']; ?>">Editar</a>
            </td>
 
            <td>
-           <a id="btn_eliminar" href="../modelos/AdminBel.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">Eliminar</a>                        
+           <a id="btn_eliminar" href="../modelos/AdminBel?ID_titulo=<?php echo $row['ID_titulo']; ?>">Eliminar</a>                        
            </td>
        </tr>
     </table> 

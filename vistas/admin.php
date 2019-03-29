@@ -9,7 +9,7 @@
     </figure>
     <h1>Bienvenida <span>Daniela Galindo</span></h1>
     <div class="links">
-        <a href="adminE.php">Visualizar Evento</a>
-        <a href="adminB.php">Visualizar Blog</a>
+        <a href="adminE">Visualizar Evento</a>
+        <a href="adminB">Visualizar Blog</a>
     </div>
 </div>

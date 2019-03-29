@@ -5,8 +5,8 @@
 
 <div class="admin_blog_container">
             <div class="button-new">
-                <a href="admin.php">Admin</a>
-                <a href="adminBc.php">Nuevo</a>
+                <a href="admin">Admin</a>
+                <a href="adminBc">Nuevo</a>
             </div>
             <form>        
                 <div id="adminB_section_tabla">
