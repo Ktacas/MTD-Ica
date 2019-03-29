@@ -17,12 +17,13 @@
             </div>
         </section>
         <section class="core">
+            <?php require '../modelos/CoreD.php'; ?>
             <div class="container_core">
                 <div class="division_core">
                     <figure class="image_core">
-                        <img src="../public/img/perfil_core1.jpg" id="img" alt="">
+                    <img src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']); ?>" alt="">
                     </figure>
-                    <h2 class="title_core">Kattya Garcia Velasquez</h2>
+                    <h2 class="title_core"><?php echo $row['nombre'].' '.$row['apellido'] ?></h2>
                     <div class="descripion_core">
                         <h3>Desarrollador de Software, Gestión de proyectos, Desarrollador de Sitios Web y SCRUM</h3>
                         <p>Microsoft Influencer en <span>MTDeveloper Ica</span> and Community Lead MTDeveloper Ica</p>
