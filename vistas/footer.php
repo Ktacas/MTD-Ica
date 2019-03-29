@@ -7,7 +7,6 @@
                 <p>Design with 💕by
                     <a href="#">@DanPipa</a>
                     <a href="#">@Karlxs</a>
-                    <a href="#">@TheJeus</a>
                     <a href="#">@Arnolín</a>
                 </p>
             </div>

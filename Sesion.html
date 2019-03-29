@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="public/css/sesion.css" rel="stylesheet">
+	
+
+	<title>Formulario</title>
+</head>
+<body >
+	
+	<div class="container">
+		<div class="form_top">
+			<h2 id="text">Inicia <span>Sesión</span></h2>
+		</div>		
+		<form class="form_reg" action="vistas/admin.php" method="POST">
+			<input class="txt"  name="email" id="email" type="text" placeholder="&#128100;  Email" required autofocus>
+            <input class="txt"  name="contraseña" id="contraseña" type="password" placeholder="&#x1F512;  Password" required>
+            <br><br>
+            <input class="btn_submit" type="submit" value="INICIAR" id="logeo" name="logeo">
+		</form>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,324 @@
+body {
+    color: white;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Dosis', sans-serif;
+}
+/* -------------------------------HEADER------------------------------- */
+.header {
+    font-family: 'Raleway', sans-serif;
+    grid-area: header;
+    height: 70px; 
+    width: 100%;
+    position: fixed;
+    /* background: rgba(0, 0, 0, .6);   */
+    background: rgba(0, 0, 0, .7);
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+  }
+  /* contenedor */
+  .container_header {
+  display: inherit;
+  justify-content: inherit;
+  height: inherit;
+  align-items: center;
+  margin: 0 auto;
+  
+  flex: 1;
+  }
+  /* logo */
+  .logo {
+  margin: 0;
+  margin-left: 55px;
+  display: inherit;
+  align-items: center;
+  }
+  /* imagen-logo */
+  .logo img {
+  width: auto;
+  height: 50px;
+  }
+  /* nav */
+  .menu {
+  height: inherit;
+  }
+  /* contedor-items */
+  .menu ul {
+  font-size: 1.2em;
+  margin: 0px;
+  margin-right: 55px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  height: inherit;
+  }
+  /* items */
+  .menu li {
+  margin: 0;
+  height: inherit;
+  }
+  /* enlaces-items */
+  .menu a {
+  text-decoration: none;
+  color: azure;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  transition: .6s;
+  padding: 0 12.5px;
+  }
+  /* ultimo-item */
+  .menu li:last-child {
+    display: flex;
+    align-items: center;
+    margin-left: 12.5px;
+  }
+  .menu .button-link {
+  border: 2px solid rgb(255, 255, 255);
+  height: 19px;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: auto;
+  transition: .6s;
+  }
+  .button-link a{
+    color: azure;
+    }
+  .button-link:hover {
+  background: rgba(255, 255, 255, .8);
+  border-color: rgba(255, 255, 255, .8);
+  cursor: pointer;
+  color: black;
+  }
+  
+  .cool-link:hover {
+  transition: .6s;
+  background: rgba(255, 255, 255, .8);
+  color: black;
+  }
+/* -------------------------------HERO------------------------------- */  
+.hero {
+    width: 100%;
+    height: 580px;
+    background: url(../img/ciudad.jpg) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.background {
+    margin: 0;
+    width: 100%;
+    height: 580px;
+    overflow: hidden;
+    position: relative;
+}
+.background img {
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    text-align: center;
+}
+.perfil {
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 8px 4px 1px rgba(10, 10, 10, 0.39);
+}
+.perfil img {
+    width: 100%;
+    height: auto;
+}
+.content h1 {
+    margin: 18px 0 5px;
+    font-weight: 400;
+}
+.content h3 {
+    margin: 0;
+    font-weight: 300;
+}
+.skills {
+    display: flex;
+    margin: 60px 0 auto;
+}
+.items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 30px;
+}
+.items p {
+    margin: 4px 0;
+}
+.number {
+    font-weight: bold;
+}
+.icons {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+/* -------------------------------ABOUT------------------------------- */
+.about {
+    height: 120px;
+    color: black;
+    margin: 60px 200px 30px;
+}
+.about h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.about p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.13em;
+}
+/* -------------------------------CORE------------------------------- */
+.core {
+    height: 160px;
+    color: black;
+    margin: 0px 200px;
+}
+.core h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin:40px 0;
+}
+.content_core {
+    display: flex;
+    justify-content: center;
+}
+.item_core {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item_core p {
+    font-family: 'Raleway', sans-serif;
+}
+.members {
+    margin: 0 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.members img {
+    width: 100%;
+    height: auto;
+}
+/* -------------------------------GALLERY------------------------------- */
+.gallery {
+    height: auto;
+    color: black;
+    margin: 100px 200px;
+}
+.gallery h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin:40px 0;
+}
+.container {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,80px);
+    grid-gap:10px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .container div {
+    background: #333;
+    padding:30px;
+    padding:10px;
+    box-sizing: border-box;
+    background: #f7f7f7;
+    border-radius: 10px;
+  }
+  .container figure {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+  }
+  .image_items {
+      width: 100%;
+      height: auto;
+      transition: .9s;
+      transform: scale(1.4);
+  }
+  .hover:hover img {
+      transform: scale(1);
+      cursor: pointer;
+  }
+  .one {
+    grid-row: 1/6;
+  }
+  .one .image_items {
+    transform: scale(1.3);
+  }
+  .two {
+    grid-row: 1/4;
+  }
+  .two .image_items {
+    transform: scale(1.6);
+  }
+  .four {
+    grid-row: 4/6;  
+  }
+  .three {
+    grid-row: 1/3;  
+  }
+  .five {
+    grid-row: 3/ 6;  
+  }
+  .five .image_items {
+    transform: scale(1.6);
+  }
+/* -------------------------------FOOTER------------------------------- */
+.footer {
+    /* background: rgb(0, 0, 0); */
+    background: url(../img/footer.png);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+.logo_footer {
+  margin: 0;
+  margin-left: 55px;
+  display: inherit;
+  align-items: center;
+  }
+/* imagen-logo */
+.logo_footer img {
+    width: auto;
+    height: 50px;
+  }
+.info_footer {
+    display: flex;
+    align-items: center;
+  }
+.info_footer p {
+  margin: 0;
+  margin-right: 55px;
+  font-weight: 200;
+  font-size: 1.13em;
+}
+.info_footer a {
+  text-decoration: none;
+  color: white;
+}  

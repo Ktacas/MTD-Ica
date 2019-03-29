@@ -1,3 +1,5 @@
+<?php require '../modelos/Admin.php';?>
+          
         <header class="header">
             <!-- contenedor -->
             <div class="container_header">
@@ -9,7 +11,7 @@
                 <nav class="menu">
                     <ul>
                         <li><a class="cool-link" href="index.php">Inicio</a></li>
-                        <li><a class="cool-link" href="#">Core</a></li>
+                        <li><a class="cool-link" href="core.php">Core</a></li>
                         <li><a class="cool-link" href="eventos.php">Eventos</a></li>
                         <li><a class="cool-link" href="blog.php">Blogs</a></li>
                         <li><a class="button-link" href="#">Conocenos</a></li>
