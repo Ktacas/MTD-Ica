@@ -18,7 +18,7 @@
                         <figure class="link_admin">
                             <img src="../public/img/perfil_core2.jpg" alt="">
                         </figure>
-                        <a href="#">Daniela Galindo</a>
+                        <a href="admin.php">Daniela Galindo</a>
                         </div>
                         <li><a class="button-link" href="#">Cerrar sesión</a></li>
                         <!-- <li><a class="button-link" href="#">Conocenos</a></li> -->
