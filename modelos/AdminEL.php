@@ -1,5 +1,5 @@
 <?php
-    require '../config/Conexion_Ev.php';
+    require '../config/Conexion_MTD.php';
 
     $query = "SELECT * FROM `tbeventos`";
 

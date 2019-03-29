@@ -1,5 +1,5 @@
 <?php
-    require '../config/Conexion_Bl.php';
+    require '../config/Conexion_MTD.php';
 
     $query = "SELECT ID_titulo, enlace, titulo, categoria, Year(fecha) ,Month(fecha), Day(fecha) FROM dtblog ORDER BY ID_titulo ASC LIMIT 3";
 

@@ -1,6 +1,6 @@
 <?php 
 // incluimos inicialmente la conexiona la base de datos
-    require "../config/Conexion_Ev.php";
+    require "../config/Conexion_MTD.php";
 
 // Implementamos un metodo para eliminar
     $id=$_REQUEST['ID_titulo'];

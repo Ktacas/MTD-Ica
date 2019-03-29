@@ -3,10 +3,7 @@
     define("DB_HOST","localhost");
 
     // Nombre de la base de datos
-    define("DB_NAME_Bl", "dbblog");
-    define("DB_NAME_Ev", "dbeventos");
-    define("DB_NAME_Ad", "dbAdmin");
-    define("DB_NAME_Cr", "dbcore");
+    define("DB_NAME_MTD", "dbmtdeveloper");
 
     // Usuario de la base de datos
     define("DB_USERNAME","root");

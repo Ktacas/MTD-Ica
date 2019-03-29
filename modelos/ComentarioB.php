@@ -1,5 +1,5 @@
 <?php
-    require '../config/Conexion_Bl.php';
+    require '../config/Conexion_MTD.php';
 
     $comentario=$_POST['comentario'];
     

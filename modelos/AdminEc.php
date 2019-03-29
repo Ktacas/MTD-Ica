@@ -1,5 +1,5 @@
 <?php
-    require '../config/Conexion_Ev.php';
+    require '../config/Conexion_MTD.php';
 
     $imagen=addslashes(file_get_contents($_FILES['imagen']['tmp_name']));
     $fecha=$_POST['fecha'];

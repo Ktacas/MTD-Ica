@@ -1,4 +1,4 @@
-<?php require '../modelos/Admin.php';?>
+
           
         <header class="header">
             <!-- contenedor -->

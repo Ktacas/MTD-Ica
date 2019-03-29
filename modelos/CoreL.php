@@ -1,5 +1,5 @@
 <?php
-    require '../config/Conexion_Cr.php';
+    require '../config/Conexion_MTD.php';
 
     $sql = "SELECT * FROM `dtcore`";
 

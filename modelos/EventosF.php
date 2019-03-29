@@ -1,5 +1,5 @@
 <?php 
-    require '../config/Conexion_Ev.php';
+    require '../config/Conexion_MTD.php';
     
     $query = "SELECT ID_titulo,Titulo, Imagen, Year(Fecha), Month(Fecha), Day(Fecha), Lugar, Estado FROM `tbeventos` 
                 WHERE Estado ='FINALIZADO' OR Estado ='ACTIVO' 

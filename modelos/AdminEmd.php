@@ -1,5 +1,5 @@
 <?php
-    require '../config/Conexion_Ev.php';
+    require '../config/Conexion_MTD.php';
 
     $id=$_REQUEST['ID_titulo'];
     $imagen=addslashes(file_get_contents($_FILES['imagen']['tmp_name']));
