@@ -30,6 +30,24 @@ body {
   justify-content: space-between;
   z-index: 3;
 }
+.container_link {
+  margin-left: 20px;
+  width: 230px;
+  display: flex;
+}
+.link_admin {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 8px 0 6px;
+  text-align: center;
+  border: 2px solid white;
+}
+.link_admin img {
+  width: 100%;
+  height: auto;
+}
 /* contenedor */
 .container_header {
 display: inherit;
@@ -87,8 +105,9 @@ padding: 0 12.5px;
   align-items: center;
   margin-left: 12.5px;
 }
+
 .menu .button-link {
-border: 2px solid rgb(255, 255, 255);
+border: 2px solid rgb(235, 233, 233);
 height: 19px;
 border-radius: 10px;
 padding: 10px 15px;
@@ -104,7 +123,6 @@ border-color: rgba(255, 255, 255, .8);
 cursor: pointer;
 color: black;
 }
-
 .cool-link:hover {
 transition: .6s;
 background: rgba(255, 255, 255, .8);
@@ -331,14 +349,13 @@ body .content a {
 .image_events {
   margin: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
   grid-area: image_events;
   overflow: hidden;
 }
 .image_events img {
   width: 100%;
   height:100%;
-  object-fit:cover;
 }
 .container-figure {
   display: flex;
@@ -696,74 +713,30 @@ button:hover .button-text {
   display: flex;
   justify-content: space-between;
 }
-.bottom form {
+.container-flex p {
+  margin: 30px auto;
+  width: 890px;
+  font-size: 1.5em;
+}
+.icon_container {
   display: flex;
-  flex-direction: column; 
-  margin-left: 60px;
-  margin-top: 30px;
+  justify-content: center;
+}
+.item-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 30px auto;
+}
+.item-icon i {
+  font-size: 3.5em;
 }
 .title_bottom {
   margin: 0;
-  margin-left: 160px;
   font-size: 4em;
   font-family: 'Dosis', sans-serif;
-  font-weight: 400;
-}
-.text_bottom {
-   width: 320px;
-   height: 60px;
-   border-radius: 50px;
-   border: 1px solid #eee;
-   padding-left: 70px;
-   font-size: 2em;
-   font-family: 'Dosis', sans-serif;
-   background: url(../img/user-solid.svg);
-   background-repeat: no-repeat;
-   background-position-y: center;
-   background-position-x: 20px;
-   background-color: white;
-   background-size: 30px 30px;
-   margin: 20px 0;
-}
-.email_bottom {
-  width: 320px;
-  height: 60px;
-  border-radius: 50px;
-  border: 1px solid #eee;
-  padding-left: 70px;
-  font-size: 2em;
-  font-family: 'Dosis', sans-serif;
-  background: url(../img/envelope-solid.svg);
-  background-repeat: no-repeat;
-  background-position-y: center;
-  background-position-x: 20px;
-  background-color: white;
-  background-size: 30px 30px;
-}
-.social_bottom {
-  grid-area: social_bottom;
-  justify-self: start;
-  align-self: center;
-  margin-right: 50px;
-}
-.social_link {
-  display: inline-block;
-  text-decoration: none;
-  color: #f3f3f3;
-  font-size: 6em;
-  margin: 0 25px;
-}
-.button_bottom {
-  margin: 30px 0;
-  width: 220px;
-  height: 60px;
-  border-radius: 50px;
-  border: 2px solid azure;
-  font-size: 2em;
-  font-family: 'Dosis', sans-serif;
-  background-color: transparent;
-  color: azure;
-  margin-left: 70px;
+  font-weight: 500;
+  text-align: center;
 }
 .bubble{
   position: absolute;

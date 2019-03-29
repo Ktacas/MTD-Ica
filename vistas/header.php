@@ -14,7 +14,14 @@
                         <li><a class="cool-link" href="core.php">Core</a></li>
                         <li><a class="cool-link" href="eventos.php">Eventos</a></li>
                         <li><a class="cool-link" href="blog.php">Blogs</a></li>
-                        <li><a class="button-link" href="#">Conocenos</a></li>
+                        <div class="container_link">
+                        <figure class="link_admin">
+                            <img src="../public/img/perfil_core2.jpg" alt="">
+                        </figure>
+                        <a href="#">Daniela Galindo</a>
+                        </div>
+                        <li><a class="button-link" href="#">Cerrar sesión</a></li>
+                        <!-- <li><a class="button-link" href="#">Conocenos</a></li> -->
                     </ul>
                 </nav>
             </div>
