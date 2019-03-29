@@ -10,7 +10,6 @@
     <div class="slide">
         <div class="container_events">
                 <div class="transparent"></div>
-                <div class="tag_events">Eventos</div>
                 <div class="line_events"></div>
                 <div class="container-figure">
                     <figure class="image_events">
@@ -20,7 +19,7 @@
                         <h2 class="title_events"><?php echo $row['Titulo']; ?></h2>
                         <p class="description_events"><?php echo $row['Descripcion']; ?></p>
                     </div>
-                    <a class="bottom_events" href="../Eventos/Eventos.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">Más info</a>
+                    <a class="bottom_events" href="eventos.php?ID_titulo=<?php echo $row['ID_titulo']; ?>">Más info</a>
                 </div>
         </div>
     </div>

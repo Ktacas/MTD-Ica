@@ -56,7 +56,7 @@
                     <div class="circle">
                         <span class="icon arrow"></span>
                     </div>
-                <p class="button-text">Ver más</p>
+                <a href="blog.php"><p class="button-text">Ver más</p></a>
                 </button></a>
             </div>
         </section>
