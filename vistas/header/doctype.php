@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../public/img/icons8-windows8-24.png">
     <!-- Index principal ,eventos admin-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400" rel="stylesheet">

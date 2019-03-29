@@ -68,24 +68,37 @@
                         <div class="bubble"></div>
                         <div class="bubble"></div>
                         <div class="bubble"></div>
-                        <div class="bubb
+                        <div class="bubble"></div>
                         <div class="bubble"></div>
                     </div>
-                    <h2 class="title_bottom">¿Quieres ser parte de nuestro equipo?</h2>
+                    <h2 class="title_bottom">Sobre Nosotros</h2>
                     <div class="container-flex">
-                    <form action="enviar.php" method="post">
-                        <input for="names" class="text_bottom" type="text" placeholder="Nombre completo" id="name" name="nombre" required>
-                        <input for="email" class="email_bottom" type="text" id="email" name="correo" placeholder="Déjanos tu email"  required>
-                        <input type="submit" value="Enviar" class="button_bottom" id="btnEnviar" >
-                    </form>
-                    <div class="social_bottom">
-                        <a href="#" class="social_link">
-                            <i class="fab fa-facebook-square"></i>
-                        </a>
-                        <a href="#" class="social_link">
-                            <i class="fab fa-github"></i>
-                        </a>
+                        <p>Somos un Club de Estudiantes o 
+                            Comunidad Académica encargada de
+                            la difusión de tecnologías Microsoft y 
+                            entrenamiento de estudiantes para que se 
+                            puedan desarrollar en el mundo de la 
+                            computación e informática, teniendo como 
+                            objetivo lograr la formación de profesionales
+                             de calidad.</p>
                     </div>
+                    <div class="icon_container">
+                        <div class="item-icon">
+                            <i class="fab fa-windows"></i>
+                            <p>Tecnologías</p>
+                        </div>
+                        <div class="item-icon">
+                            <i class="fas fa-laptop-code"></i>
+                            <p>Desarollo</p>
+                        </div>
+                        <div class="item-icon">
+                            <i class="fas fa-database"></i>
+                            <p>Base de datos</p>
+                        </div>
+                        <div class="item-icon">
+                            <i class="fab fa-html5"></i>
+                            <p>Diseño y Frontend</p>
+                        </div>
                     </div>
                 </div>     
             </div>         
