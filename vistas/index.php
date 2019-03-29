@@ -6,7 +6,7 @@
     
         <section class="hero">
             <!-- video -->
-            <video src="../public/video/160330_1_Typing1_Mpeg4_4K (2).mp4" autoplay loop muted></video>
+            <video src="../public/video/160330.mp4" autoplay loop muted></video>
             <!-- overlay(Fondo azul trasnparente) -->
             <div class="overlay"></div>
             <!-- contenedor-texto -->
