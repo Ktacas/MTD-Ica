@@ -19,6 +19,22 @@
         
         <label>Imagen: <input type="file" REQUIRED name="imagen"></label>
         
+        <label>Nivel de Imagen: 
+            <select name="nivel" id=nivel>
+                <?php 
+                    if( $row['Nivel'] == $valor='level-1'){?> 
+                        <option selected>level-1</option><option>level-2</option><option>level-3</option> 
+                <?php }
+                    if( $row['Nivel'] == $valor='level-2'){?> 
+                        <option>level-1</option><option selected>level-2</option><option>level-3</option>
+                <?php }
+                    if( $row['Nivel'] == $valor='level-3'){?> 
+                        <option>level-1</option><option>level-2</option><option selected>level-3</option>
+                <?php }
+                ?>                          
+            </select>
+        </label> <br>
+
         <label>Descripcion: <textarea REQUIRED name="descripcion" rows="10" cols="80" placeholder="pon la descripcion aqui" maxlength="140"x><?php echo $row['Descripcion']; ?></textarea></label> <br>
         
         <label>Lugar: <input type="text" REQUIRED name="lugar" value="<?php echo $row['Lugar']; ?>" placeholder="pon lugar del evento"></label> 

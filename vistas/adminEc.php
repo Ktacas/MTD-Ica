@@ -6,20 +6,39 @@
 <div id="admin_blog_container">
     <form action="../modelos/AdminEc.php" name="formenviar" id="formenviar" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
         <label>Titulo: <input type="text" REQUIRED name="titulo" placeholder="Escribe el título"></label> 
+        
         <label>SubTitulo: <input type="text" REQUIRED name="subtitulo" placeholder="Aqui subtítulo"></label> 
+        
         <label>Fecha: <input type="date" REQUIRED name="fecha"></label> 
+        
         <label>Hora: <input type="time" REQUIRED name="hora"></label> 
+        
         <label>Imagen: <input type="file" REQUIRED name="imagen" stile="display: none"></label> <span style="Color: Red;">Tamaño Máximo: 2,048KB</span>
+        
+        <label>Nivel de Imagen: 
+            <select name="nivel" id=nivel>                 
+                <option selected>level-1</option><option>level-2</option><option>level-3</option>         
+            </select>
+        </label> <br>
+        
         <div class="description">
-        <label class="description" >Descripcion: </label>
+            <label class="description" >Descripcion: </label>
             <textarea REQUIRED name="descripcion" rows="5" cols="40" placeholder="Descripción aqui" maxlength="140"></textarea> 
         </div>
+        
         <label>Lugar: <input type="text" REQUIRED name="lugar" placeholder="Lugar del evento"></label> 
+        
         <label>Enlace Mapa: <input type="text" REQUIRED name="enlace" placeholder="Link de google maps"></label> 
-        <label>Estado: <input type="text" REQUIRED name="estado" placeholder="ACTIVO O FINALIZADO"></label> 
+        
+        <label>Estado: 
+            <select name="estado" id="estado">                 
+                <option selected>ACTIVO</option><option>FINALIZADO</option>         
+            </select>
+        </label> 
+        
         <div class="container">
-        <input type="submit" value="Enviar" name="enviar">
-        <a href="adminE.php">Cancelar</a>
+            <input type="submit" value="Enviar" name="enviar">
+            <a href="adminE.php">Cancelar</a>
         </div>
     </form>
 </div>

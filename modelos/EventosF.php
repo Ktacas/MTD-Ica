@@ -9,7 +9,7 @@
 
 while ( $row = $resultado->fetch_assoc()){?> 
     <a href="eventoseleccionado?ID_titulo=<?php echo $row['ID_titulo']; ?>">
-        <div class="items level-1">
+        <div class="items <?php echo $row['Nivel']?>">
             <img src="data:image/jpg;base64,<?php echo base64_encode($row['Imagen']); ?>" alt="">
 
         <span class="post-overlay">
