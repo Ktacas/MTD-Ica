@@ -26,7 +26,11 @@
                             <p><?php echo $row['Hora']; ?></p>
                         </div>
                     </div>
-                    <a href="../formulario/registro.php">Registrate</a>
+                        <?php if ($row['Estado'] == 'ACTIVO'){?>
+                            <a href="../formulario/registro.php">Registrate</a>
+                        <?php } else {?>
+                            <a href="#">Concluido</a>
+                        <?php } ?>
                 </div>
             </div>
         </section>

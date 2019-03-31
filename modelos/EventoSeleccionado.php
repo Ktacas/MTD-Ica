@@ -3,7 +3,7 @@
 
     $id=$_REQUEST['ID_titulo'];
 
-    $query = "SELECT ID_titulo, Titulo, Subtitulo, Imagen, Year(Fecha), Month(Fecha), Day(Fecha), Hora, Descripcion, Enlace, Lugar  FROM `tbeventos` WHERE ID_titulo='$id'";
+    $query = "SELECT ID_titulo, Titulo, Subtitulo, Imagen, Year(Fecha), Month(Fecha), Day(Fecha), Hora, Descripcion, Enlace, Lugar, Estado  FROM `tbeventos` WHERE ID_titulo='$id'";
     
     $resultado= $conexion->query($query);
     
