@@ -61,7 +61,7 @@
                 </button></a>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" name="contact" id="contact">
             <div class="container_contact">
                 <div class="bottom">
                     <div class="bubbels">

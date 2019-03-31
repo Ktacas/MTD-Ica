@@ -54,14 +54,4 @@
                 <i class="fab fa-instagram"></i>
             </div>
         </section>
-        <section class="comment">
-            <div class="container-comment">
-                <div class="tag-comment">Escriba un comentario</div>
-                <form class="text-comment" action="ComentarioE.php?ID_titulo=<?php echo $id=$_REQUEST['ID_titulo']; ?>" method="POST">
-                    <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
-                    <input type="submit" value="Comentar" name="comentar" id="comentar" class="button-comment">
-                </form>
-            </div>
-        </section>
-
 <?php require 'footer.php'?>
